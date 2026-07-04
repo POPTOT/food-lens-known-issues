@@ -1,5 +1,5 @@
 {
-  "version": 2,
+  "version": 3,
   "updated": "2026-07-04",
   "schema_version": 1,
   "issues": [
@@ -14,6 +14,7 @@
           "Weis"
         ],
         "product_keywords": [
+          "apple",
           "apple cinnamon fruit puree",
           "cinnamon applesauce",
           "cinnamon apple sauce",
@@ -32,16 +33,16 @@
       "type": "recall",
       "severity": "critical",
       "confidence": "high",
-      "title": "Lead and chromium recall",
-      "short": "FDA investigated recalled cinnamon applesauce pouches linked to elevated lead and chromium.",
-      "details": "FDA investigated WanaBana, Schnucks, and Weis cinnamon applesauce products after reports of elevated blood lead levels and product testing that found elevated lead and chromium.",
+      "title": "Brand-linked FDA recall",
+      "short": "FDA investigated recalled WanaBana, Schnucks, and Weis apple cinnamon pouches linked to elevated lead and chromium.",
+      "details": "This is a brand/product-line red flag: FDA investigated recalled apple cinnamon puree/applesauce pouches from WanaBana, Schnucks, and Weis after reports of elevated blood lead levels and product testing that found elevated lead and chromium.",
       "substances": [
         "Lead",
         "Chromium"
       ],
       "evidence": {
         "year": 2023,
-        "summary": "FDA investigation and recall of WanaBana, Schnucks, and Weis cinnamon applesauce pouches for elevated lead and chromium.",
+        "summary": "FDA investigation and recall of WanaBana, Schnucks, and Weis apple cinnamon puree/applesauce pouches for elevated lead and chromium.",
         "jurisdiction": "United States"
       },
       "sources": [
