@@ -1,6 +1,62 @@
 {
-  "version": 1,
+  "version": 2,
   "updated": "2026-07-04",
   "schema_version": 1,
-  "issues": []
+  "issues": [
+    {
+      "id": "wanabana-schnucks-weis-cinnamon-applesauce-lead-chromium-2023",
+      "status": "active",
+      "match": {
+        "barcodes": [],
+        "brand_names": [
+          "WanaBana",
+          "Schnucks",
+          "Weis"
+        ],
+        "product_keywords": [
+          "apple cinnamon fruit puree",
+          "cinnamon applesauce",
+          "cinnamon apple sauce",
+          "applesauce pouch",
+          "apple cinnamon pouch"
+        ],
+        "category_tags": [
+          "baby-foods",
+          "fruit-purees",
+          "applesauce"
+        ],
+        "countries": [
+          "US"
+        ]
+      },
+      "type": "recall",
+      "severity": "critical",
+      "confidence": "high",
+      "title": "Lead and chromium recall",
+      "short": "FDA investigated recalled cinnamon applesauce pouches linked to elevated lead and chromium.",
+      "details": "FDA investigated WanaBana, Schnucks, and Weis cinnamon applesauce products after reports of elevated blood lead levels and product testing that found elevated lead and chromium.",
+      "substances": [
+        "Lead",
+        "Chromium"
+      ],
+      "evidence": {
+        "year": 2023,
+        "summary": "FDA investigation and recall of WanaBana, Schnucks, and Weis cinnamon applesauce pouches for elevated lead and chromium.",
+        "jurisdiction": "United States"
+      },
+      "sources": [
+        {
+          "name": "FDA investigation: elevated lead and chromium in cinnamon applesauce pouches",
+          "url": "https://www.fda.gov/food/outbreaks-foodborne-illness/investigation-elevated-lead-chromium-levels-cinnamon-applesauce-pouches-november-2023",
+          "type": "regulator",
+          "accessed": "2026-07-04"
+        }
+      ],
+      "score_penalty": 60,
+      "display": {
+        "badge": "FDA recall",
+        "tone": "red"
+      }
+    }
+  ]
 }
