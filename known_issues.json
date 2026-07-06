@@ -1,5 +1,5 @@
 {
-  "version": 4,
+  "version": 5,
   "updated": "2026-07-06",
   "schema_version": 1,
   "issues": [
@@ -56,6 +56,129 @@
       ],
       "score_penalty": 60,
       "score_cap": 15,
+      "display": {
+        "badge": "FDA recall",
+        "tone": "red"
+      }
+    },
+    {
+      "id": "fda-ground-cinnamon-elevated-lead-alert-2024",
+      "status": "active",
+      "scope": "product_line",
+      "match": {
+        "barcodes": [],
+        "brand_names": [
+          "La Fiesta",
+          "Marcum",
+          "MK",
+          "Swad",
+          "Supreme Tradition",
+          "El Chilar",
+          "Compania Indillor Orientale",
+          "ALB Flavor",
+          "Shahzada",
+          "Spice Class",
+          "La Frontera"
+        ],
+        "product_keywords": [
+          "ground cinnamon",
+          "cinnamon"
+        ],
+        "category_tags": [
+          "spices",
+          "cinnamon",
+          "ground-cinnamon"
+        ],
+        "countries": [
+          "US"
+        ]
+      },
+      "type": "regulatory_notice",
+      "severity": "high",
+      "confidence": "high",
+      "title": "Elevated lead in ground cinnamon",
+      "short": "FDA found elevated lead in multiple ground cinnamon products and advised consumers to stop using listed products.",
+      "details": "FDA testing found elevated lead in listed ground cinnamon products sold under several brands. FDA said prolonged exposure may be unsafe and advised consumers to discard affected products.",
+      "substances": [
+        "Lead"
+      ],
+      "evidence": {
+        "year": 2024,
+        "summary": "FDA public health alert for listed ground cinnamon products with elevated lead levels.",
+        "jurisdiction": "United States"
+      },
+      "sources": [
+        {
+          "name": "FDA alert: certain cinnamon products due to elevated lead",
+          "url": "https://www.fda.gov/food/alerts-advisories-safety-information/fda-alert-concerning-certain-cinnamon-products-due-presence-elevated-levels-lead",
+          "type": "regulator",
+          "accessed": "2026-07-06"
+        }
+      ],
+      "score_penalty": 35,
+      "score_cap": 35,
+      "display": {
+        "badge": "FDA alert",
+        "tone": "red"
+      }
+    },
+    {
+      "id": "diamond-shruumz-products-fda-illnesses-recall-2024",
+      "status": "active",
+      "scope": "brand_line",
+      "match": {
+        "barcodes": [],
+        "brand_names": [
+          "Diamond Shruumz",
+          "Prophet Premium Blends"
+        ],
+        "product_keywords": [
+          "microdosing chocolate",
+          "chocolate bar",
+          "infused cone",
+          "gummies",
+          "micro-dose",
+          "mega-dose",
+          "extreme gummies"
+        ],
+        "category_tags": [
+          "chocolate",
+          "gummies",
+          "candy",
+          "snacks"
+        ],
+        "countries": [
+          "US"
+        ]
+      },
+      "type": "recall",
+      "severity": "critical",
+      "confidence": "high",
+      "title": "FDA illness investigation and recall",
+      "short": "FDA warned consumers not to eat any Diamond Shruumz products after illnesses, hospitalizations, and a recall.",
+      "details": "FDA and partners investigated illnesses associated with Diamond Shruumz chocolate bars, cones, and gummies. FDA said all flavors were recalled and consumers should not eat, sell, or serve them.",
+      "substances": [
+        "Muscimol",
+        "Psilacetin",
+        "Psilocin",
+        "Pregabalin",
+        "Kava compounds"
+      ],
+      "evidence": {
+        "year": 2024,
+        "summary": "FDA investigation of illnesses linked to Diamond Shruumz products; all flavors recalled.",
+        "jurisdiction": "United States"
+      },
+      "sources": [
+        {
+          "name": "FDA investigation: Diamond Shruumz-brand chocolate bars, cones, and gummies",
+          "url": "https://www.fda.gov/food/outbreaks-foodborne-illness/investigation-illnesses-diamond-shruumz-brand-chocolate-bars-cones-gummies-june-2024",
+          "type": "regulator",
+          "accessed": "2026-07-06"
+        }
+      ],
+      "score_penalty": 90,
+      "score_cap": 5,
       "display": {
         "badge": "FDA recall",
         "tone": "red"
