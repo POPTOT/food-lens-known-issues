@@ -29,6 +29,7 @@
       "properties": {
         "id": { "type": "string" },
         "status": { "enum": ["active", "draft", "archived"] },
+        "scope": { "enum": ["exact_product", "product_line", "brand_line", "category", "ingredient"] },
         "match": {
           "type": "object",
           "properties": {
@@ -95,7 +96,8 @@
             "additionalProperties": false
           }
         },
-        "score_penalty": { "type": "integer", "minimum": 0, "maximum": 60 },
+        "score_penalty": { "type": "integer", "minimum": 0, "maximum": 90 },
+        "score_cap": { "type": "integer", "minimum": 0, "maximum": 100 },
         "display": {
           "type": "object",
           "properties": {
