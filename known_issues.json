@@ -1,1 +1,3506 @@
-/Users/martinalekseev/Desktop/Foode Lens/Food Lens/FoodLens/FoodLens/Resources/known_issues.json
+{
+  "version": 7,
+  "updated": "2026-07-06",
+  "schema_version": 1,
+  "issues": [
+    {
+      "id": "wanabana-schnucks-weis-cinnamon-applesauce-lead-chromium-2023",
+      "status": "active",
+      "scope": "brand_line",
+      "match": {
+        "barcodes": [],
+        "brand_names": [
+          "WanaBana",
+          "Schnucks",
+          "Weis"
+        ],
+        "product_keywords": [
+          "apple",
+          "apple cinnamon fruit puree",
+          "cinnamon applesauce",
+          "cinnamon apple sauce",
+          "applesauce pouch",
+          "apple cinnamon pouch"
+        ],
+        "category_tags": [
+          "baby-foods",
+          "fruit-purees",
+          "applesauce"
+        ],
+        "countries": [
+          "US"
+        ]
+      },
+      "type": "recall",
+      "severity": "critical",
+      "confidence": "high",
+      "title": "Brand-linked FDA recall",
+      "short": "FDA investigated recalled WanaBana, Schnucks, and Weis apple cinnamon pouches linked to elevated lead and chromium.",
+      "details": "This is a brand/product-line red flag: FDA investigated recalled apple cinnamon puree/applesauce pouches from WanaBana, Schnucks, and Weis after reports of elevated blood lead levels and product testing that found elevated lead and chromium.",
+      "substances": [
+        "Lead",
+        "Chromium"
+      ],
+      "evidence": {
+        "year": 2023,
+        "summary": "FDA investigation and recall of WanaBana, Schnucks, and Weis apple cinnamon puree/applesauce pouches for elevated lead and chromium.",
+        "jurisdiction": "United States"
+      },
+      "sources": [
+        {
+          "name": "FDA investigation: elevated lead and chromium in cinnamon applesauce pouches",
+          "url": "https://www.fda.gov/food/outbreaks-foodborne-illness/investigation-elevated-lead-chromium-levels-cinnamon-applesauce-pouches-november-2023",
+          "type": "regulator",
+          "accessed": "2026-07-04"
+        }
+      ],
+      "score_penalty": 60,
+      "score_cap": 15,
+      "display": {
+        "badge": "FDA recall",
+        "tone": "red"
+      }
+    },
+    {
+      "id": "fda-ground-cinnamon-elevated-lead-alert-2024",
+      "status": "active",
+      "scope": "product_line",
+      "match": {
+        "barcodes": [],
+        "brand_names": [
+          "La Fiesta",
+          "Marcum",
+          "MK",
+          "Swad",
+          "Supreme Tradition",
+          "El Chilar",
+          "Compania Indillor Orientale",
+          "ALB Flavor",
+          "Shahzada",
+          "Spice Class",
+          "La Frontera"
+        ],
+        "product_keywords": [
+          "ground cinnamon",
+          "cinnamon"
+        ],
+        "category_tags": [
+          "spices",
+          "cinnamon",
+          "ground-cinnamon"
+        ],
+        "countries": [
+          "US"
+        ]
+      },
+      "type": "regulatory_notice",
+      "severity": "high",
+      "confidence": "high",
+      "title": "Elevated lead in ground cinnamon",
+      "short": "FDA found elevated lead in multiple ground cinnamon products and advised consumers to stop using listed products.",
+      "details": "FDA testing found elevated lead in listed ground cinnamon products sold under several brands. FDA said prolonged exposure may be unsafe and advised consumers to discard affected products.",
+      "substances": [
+        "Lead"
+      ],
+      "evidence": {
+        "year": 2024,
+        "summary": "FDA public health alert for listed ground cinnamon products with elevated lead levels.",
+        "jurisdiction": "United States"
+      },
+      "sources": [
+        {
+          "name": "FDA alert: certain cinnamon products due to elevated lead",
+          "url": "https://www.fda.gov/food/alerts-advisories-safety-information/fda-alert-concerning-certain-cinnamon-products-due-presence-elevated-levels-lead",
+          "type": "regulator",
+          "accessed": "2026-07-06"
+        }
+      ],
+      "score_penalty": 35,
+      "score_cap": 35,
+      "display": {
+        "badge": "FDA alert",
+        "tone": "red"
+      }
+    },
+    {
+      "id": "diamond-shruumz-products-fda-illnesses-recall-2024",
+      "status": "active",
+      "scope": "brand_line",
+      "match": {
+        "barcodes": [],
+        "brand_names": [
+          "Diamond Shruumz",
+          "Prophet Premium Blends"
+        ],
+        "product_keywords": [
+          "microdosing chocolate",
+          "chocolate bar",
+          "infused cone",
+          "gummies",
+          "micro-dose",
+          "mega-dose",
+          "extreme gummies"
+        ],
+        "category_tags": [
+          "chocolate",
+          "gummies",
+          "candy",
+          "snacks"
+        ],
+        "countries": [
+          "US"
+        ]
+      },
+      "type": "recall",
+      "severity": "critical",
+      "confidence": "high",
+      "title": "FDA illness investigation and recall",
+      "short": "FDA warned consumers not to eat any Diamond Shruumz products after illnesses, hospitalizations, and a recall.",
+      "details": "FDA and partners investigated illnesses associated with Diamond Shruumz chocolate bars, cones, and gummies. FDA said all flavors were recalled and consumers should not eat, sell, or serve them.",
+      "substances": [
+        "Muscimol",
+        "Psilacetin",
+        "Psilocin",
+        "Pregabalin",
+        "Kava compounds"
+      ],
+      "evidence": {
+        "year": 2024,
+        "summary": "FDA investigation of illnesses linked to Diamond Shruumz products; all flavors recalled.",
+        "jurisdiction": "United States"
+      },
+      "sources": [
+        {
+          "name": "FDA investigation: Diamond Shruumz-brand chocolate bars, cones, and gummies",
+          "url": "https://www.fda.gov/food/outbreaks-foodborne-illness/investigation-illnesses-diamond-shruumz-brand-chocolate-bars-cones-gummies-june-2024",
+          "type": "regulator",
+          "accessed": "2026-07-06"
+        }
+      ],
+      "score_penalty": 90,
+      "score_cap": 5,
+      "display": {
+        "badge": "FDA recall",
+        "tone": "red"
+      }
+    },
+    {
+      "id": "mcdonalds-quarter-pounder-onions-ecoli-outbreak-2024",
+      "status": "active",
+      "scope": "product_line",
+      "match": {
+        "barcodes": [],
+        "brand_names": [
+          "McDonald's",
+          "Taylor Farms"
+        ],
+        "product_keywords": [
+          "quarter pounder",
+          "slivered onions",
+          "yellow onions",
+          "burger"
+        ],
+        "category_tags": [
+          "burgers",
+          "fast-food",
+          "onions"
+        ],
+        "countries": [
+          "US"
+        ]
+      },
+      "type": "regulatory_notice",
+      "severity": "critical",
+      "confidence": "high",
+      "title": "E. coli outbreak linked to onions",
+      "short": "FDA linked an E. coli O157:H7 outbreak to recalled yellow onions served on McDonald's Quarter Pounders in affected states.",
+      "details": "FDA, CDC, and state partners investigated a multistate E. coli outbreak. FDA says traceback evidence showed recalled Taylor Farms yellow onions served on McDonald's Quarter Pounders were the likely source.",
+      "substances": [
+        "E. coli O157:H7"
+      ],
+      "evidence": {
+        "year": 2024,
+        "summary": "FDA reported 104 illnesses, 34 hospitalizations, and 1 death in the McDonald's Quarter Pounder onion outbreak.",
+        "jurisdiction": "United States"
+      },
+      "sources": [
+        {
+          "name": "FDA outbreak investigation: E. coli O157:H7 onions",
+          "url": "https://www.fda.gov/food/outbreaks-foodborne-illness/outbreak-investigation-e-coli-o157h7-onions-october-2024",
+          "type": "regulator",
+          "accessed": "2026-07-06"
+        }
+      ],
+      "score_penalty": 60,
+      "score_cap": 15,
+      "display": {
+        "badge": "FDA outbreak",
+        "tone": "red"
+      }
+    },
+    {
+      "id": "grimmway-organic-carrots-ecoli-outbreak-2024",
+      "status": "active",
+      "scope": "product_line",
+      "match": {
+        "barcodes": [],
+        "brand_names": [
+          "Grimmway Farms",
+          "Cal-Organic",
+          "Bunny Luv",
+          "Good & Gather",
+          "Marketside",
+          "Trader Joe's",
+          "365",
+          "Wegmans",
+          "Simple Truth",
+          "O Organics",
+          "Sprouts",
+          "Kroger",
+          "Lidl"
+        ],
+        "product_keywords": [
+          "organic carrots",
+          "baby carrots",
+          "whole carrots",
+          "carrots"
+        ],
+        "category_tags": [
+          "carrots",
+          "vegetables",
+          "produce"
+        ],
+        "countries": [
+          "US"
+        ]
+      },
+      "type": "regulatory_notice",
+      "severity": "critical",
+      "confidence": "high",
+      "title": "E. coli outbreak linked to organic carrots",
+      "short": "FDA linked recalled organic whole and baby carrots supplied by Grimmway Farms to an E. coli outbreak.",
+      "details": "FDA reported that recalled organic whole and baby carrots supplied by Grimmway Farms were the likely source of a multistate E. coli O121:H19 outbreak.",
+      "substances": [
+        "E. coli O121:H19"
+      ],
+      "evidence": {
+        "year": 2024,
+        "summary": "FDA reported 48 illnesses, 20 hospitalizations, and 1 death in the organic carrots outbreak.",
+        "jurisdiction": "United States"
+      },
+      "sources": [
+        {
+          "name": "FDA outbreak investigation: organic carrots",
+          "url": "https://www.fda.gov/food/outbreaks-foodborne-illness/outbreak-investigation-e-coli-o121h19-organic-carrots-november-2024",
+          "type": "regulator",
+          "accessed": "2026-07-06"
+        }
+      ],
+      "score_penalty": 55,
+      "score_cap": 20,
+      "display": {
+        "badge": "FDA outbreak",
+        "tone": "red"
+      }
+    },
+    {
+      "id": "refresco-apple-juice-inorganic-arsenic-2024",
+      "status": "active",
+      "scope": "product_line",
+      "match": {
+        "barcodes": [],
+        "brand_names": [
+          "Great Value",
+          "Market Basket",
+          "Nice!",
+          "Weis",
+          "Urban Meadow",
+          "Nature's Nectar",
+          "Wellsley Farms",
+          "Solevita",
+          "Clover Valley",
+          "Tropical Delight"
+        ],
+        "product_keywords": [
+          "apple juice",
+          "100% apple juice"
+        ],
+        "category_tags": [
+          "juice",
+          "apple-juice",
+          "beverages"
+        ],
+        "countries": [
+          "US"
+        ]
+      },
+      "type": "recall",
+      "severity": "high",
+      "confidence": "high",
+      "title": "Inorganic arsenic above action level",
+      "short": "FDA enforcement data lists multiple apple juice brands recalled for inorganic arsenic above the action level.",
+      "details": "Refresco Beverages recalled multiple apple juice products, including Great Value and other store brands, because inorganic arsenic was above the FDA action level set in guidance.",
+      "substances": [
+        "Inorganic arsenic"
+      ],
+      "evidence": {
+        "year": 2024,
+        "summary": "FDA enforcement report F-1795-2024 for apple juice products with inorganic arsenic above action level.",
+        "jurisdiction": "United States"
+      },
+      "sources": [
+        {
+          "name": "FDA enforcement report: apple juice inorganic arsenic",
+          "url": "https://api.fda.gov/food/enforcement.json?search=recall_number:%22F-1795-2024%22",
+          "type": "regulator",
+          "accessed": "2026-07-06"
+        }
+      ],
+      "score_penalty": 35,
+      "score_cap": 35,
+      "display": {
+        "badge": "FDA recall",
+        "tone": "red"
+      }
+    },
+    {
+      "id": "quaker-chewy-granola-cereal-salmonella-2023",
+      "status": "active",
+      "scope": "product_line",
+      "match": {
+        "barcodes": [],
+        "brand_names": [
+          "Quaker",
+          "Quaker Oats",
+          "Cap'n Crunch",
+          "Frito-Lay"
+        ],
+        "product_keywords": [
+          "chewy bars",
+          "granola bars",
+          "granola cereal",
+          "cereal",
+          "peanut butter crunch"
+        ],
+        "category_tags": [
+          "cereals",
+          "granola-bars",
+          "snacks"
+        ],
+        "countries": [
+          "US"
+        ]
+      },
+      "type": "recall",
+      "severity": "high",
+      "confidence": "high",
+      "title": "Potential Salmonella in Quaker products",
+      "short": "FDA enforcement data lists Quaker Chewy bars and related cereal/granola products recalled for potential Salmonella.",
+      "details": "The Quaker Oats Company recall covered multiple bars, granola, and cereal products due to potential Salmonella contamination.",
+      "substances": [
+        "Salmonella"
+      ],
+      "evidence": {
+        "year": 2023,
+        "summary": "FDA enforcement report F-0950-2024 for Quaker products recalled for potential Salmonella.",
+        "jurisdiction": "United States"
+      },
+      "sources": [
+        {
+          "name": "FDA enforcement report: Quaker potential Salmonella",
+          "url": "https://api.fda.gov/food/enforcement.json?search=recall_number:%22F-0950-2024%22",
+          "type": "regulator",
+          "accessed": "2026-07-06"
+        }
+      ],
+      "score_penalty": 35,
+      "score_cap": 35,
+      "display": {
+        "badge": "FDA recall",
+        "tone": "red"
+      }
+    },
+    {
+      "id": "lays-classic-potato-chips-undeclared-milk-2024",
+      "status": "active",
+      "scope": "product_line",
+      "match": {
+        "barcodes": [],
+        "brand_names": [
+          "Lay's",
+          "Frito-Lay"
+        ],
+        "product_keywords": [
+          "classic potato chips",
+          "barbecue potato chips",
+          "potato chips"
+        ],
+        "category_tags": [
+          "chips",
+          "potato-chips",
+          "snacks"
+        ],
+        "countries": [
+          "US"
+        ]
+      },
+      "type": "recall",
+      "severity": "high",
+      "confidence": "high",
+      "title": "Undeclared milk allergen",
+      "short": "FDA enforcement data lists Lay's potato chips recalled because milk was not declared on the label.",
+      "details": "Frito-Lay recalled certain Lay's potato chips for undeclared milk allergen. This is a serious issue for people with milk allergy.",
+      "substances": [
+        "Milk allergen"
+      ],
+      "evidence": {
+        "year": 2024,
+        "summary": "FDA enforcement report F-0428-2025 for Lay's Classic Potato Chips with undeclared milk allergen.",
+        "jurisdiction": "United States"
+      },
+      "sources": [
+        {
+          "name": "FDA enforcement report: Lay's undeclared milk",
+          "url": "https://api.fda.gov/food/enforcement.json?search=recall_number:%22F-0428-2025%22",
+          "type": "regulator",
+          "accessed": "2026-07-06"
+        }
+      ],
+      "score_penalty": 25,
+      "score_cap": 45,
+      "display": {
+        "badge": "FDA recall",
+        "tone": "red"
+      }
+    },
+    {
+      "id": "rizo-lopez-cheese-listeria-2024",
+      "status": "active",
+      "scope": "brand_line",
+      "match": {
+        "barcodes": [],
+        "brand_names": [
+          "Rizo Lopez",
+          "Don Francisco",
+          "Tio Francisco",
+          "San Carlos",
+          "Dos Ranchitos",
+          "La Ordena",
+          "Campesino",
+          "Food City",
+          "365"
+        ],
+        "product_keywords": [
+          "cheese",
+          "ricotta",
+          "cotija",
+          "queso fresco",
+          "panela",
+          "monterey jack"
+        ],
+        "category_tags": [
+          "cheese",
+          "dairy"
+        ],
+        "countries": [
+          "US"
+        ]
+      },
+      "type": "recall",
+      "severity": "critical",
+      "confidence": "high",
+      "title": "Listeria contamination in cheese products",
+      "short": "FDA enforcement data lists Rizo Lopez / Don Francisco cheese products recalled for Listeria monocytogenes contamination.",
+      "details": "Rizo Lopez Foods recalled multiple cheese products and related brands for Listeria monocytogenes contamination.",
+      "substances": [
+        "Listeria monocytogenes"
+      ],
+      "evidence": {
+        "year": 2024,
+        "summary": "FDA enforcement event 93814 includes Class I recalls for Rizo Lopez / Don Francisco cheese products due to Listeria.",
+        "jurisdiction": "United States"
+      },
+      "sources": [
+        {
+          "name": "FDA enforcement report: Rizo Lopez Listeria recalls",
+          "url": "https://api.fda.gov/food/enforcement.json?search=event_id:%2293814%22",
+          "type": "regulator",
+          "accessed": "2026-07-06"
+        }
+      ],
+      "score_penalty": 55,
+      "score_cap": 20,
+      "display": {
+        "badge": "FDA recall",
+        "tone": "red"
+      }
+    },
+    {
+      "id": "palmer-candy-caramel-popcorn-salmonella-2024",
+      "status": "active",
+      "scope": "product_line",
+      "match": {
+        "barcodes": [],
+        "brand_names": [
+          "Palmer Candy",
+          "Palmer",
+          "Meijer"
+        ],
+        "product_keywords": [
+          "drizzled caramel corn",
+          "caramel popcorn",
+          "popcorn snack bowl"
+        ],
+        "category_tags": [
+          "popcorn",
+          "candy",
+          "snacks"
+        ],
+        "countries": [
+          "US"
+        ]
+      },
+      "type": "recall",
+      "severity": "high",
+      "confidence": "high",
+      "title": "Potential Salmonella in caramel popcorn",
+      "short": "FDA enforcement data lists Palmer Candy and Meijer caramel popcorn products recalled for potential Salmonella.",
+      "details": "Palmer Candy recalled drizzled caramel corn and Meijer caramel popcorn snack bowls because of potential Salmonella contamination.",
+      "substances": [
+        "Salmonella"
+      ],
+      "evidence": {
+        "year": 2024,
+        "summary": "FDA enforcement report F-1671-2024 for Palmer Candy and Meijer popcorn products with potential Salmonella.",
+        "jurisdiction": "United States"
+      },
+      "sources": [
+        {
+          "name": "FDA enforcement report: Palmer Candy potential Salmonella",
+          "url": "https://api.fda.gov/food/enforcement.json?search=recall_number:%22F-1671-2024%22",
+          "type": "regulator",
+          "accessed": "2026-07-06"
+        }
+      ],
+      "score_penalty": 35,
+      "score_cap": 35,
+      "display": {
+        "badge": "FDA recall",
+        "tone": "red"
+      }
+    },
+    {
+      "id": "dole-marketside-classic-salad-listeria-2022",
+      "status": "active",
+      "scope": "product_line",
+      "match": {
+        "barcodes": [],
+        "brand_names": [
+          "Dole",
+          "Marketside"
+        ],
+        "product_keywords": [
+          "classic salad",
+          "iceberg lettuce",
+          "salad"
+        ],
+        "category_tags": [
+          "salads",
+          "lettuce",
+          "vegetables"
+        ],
+        "countries": [
+          "US"
+        ]
+      },
+      "type": "recall",
+      "severity": "high",
+      "confidence": "high",
+      "title": "Listeria found on harvest equipment",
+      "short": "FDA enforcement data lists Dole / Marketside Classic Salad recalled after harvest equipment tested positive for Listeria.",
+      "details": "Dole Fresh Vegetables recalled Marketside Classic Salad after harvest equipment used for raw iceberg lettuce tested positive for Listeria monocytogenes.",
+      "substances": [
+        "Listeria monocytogenes"
+      ],
+      "evidence": {
+        "year": 2022,
+        "summary": "FDA enforcement report F-0757-2022 for Marketside Classic Salad linked to Listeria found on harvest equipment.",
+        "jurisdiction": "United States"
+      },
+      "sources": [
+        {
+          "name": "FDA enforcement report: Dole / Marketside salad Listeria",
+          "url": "https://api.fda.gov/food/enforcement.json?search=recall_number:%22F-0757-2022%22",
+          "type": "regulator",
+          "accessed": "2026-07-06"
+        }
+      ],
+      "score_penalty": 35,
+      "score_cap": 35,
+      "display": {
+        "badge": "FDA recall",
+        "tone": "red"
+      }
+    },
+    {
+      "id": "boars-head-ham-sandwich-listeria-2024",
+      "status": "active",
+      "scope": "brand_line",
+      "match": {
+        "barcodes": [],
+        "brand_names": [
+          "Boar's Head",
+          "Boars Head"
+        ],
+        "product_keywords": [
+          "ham",
+          "deli meat",
+          "liverwurst",
+          "sandwich",
+          "bologna",
+          "black forest ham"
+        ],
+        "category_tags": [
+          "deli-meat",
+          "ham",
+          "sandwiches",
+          "meat"
+        ],
+        "countries": [
+          "US"
+        ]
+      },
+      "type": "recall",
+      "severity": "critical",
+      "confidence": "high",
+      "title": "Potential Listeria in Boar's Head products",
+      "short": "FDA enforcement data lists Boar's Head ham/sandwich products recalled for potential Listeria monocytogenes.",
+      "details": "FDA enforcement data includes a Boar's Head Grab and Go ham sandwich recall for potential Listeria monocytogenes.",
+      "substances": [
+        "Listeria monocytogenes"
+      ],
+      "evidence": {
+        "year": 2024,
+        "summary": "FDA enforcement report F-1703-2024 for Boar's Head ham sandwich products with potential Listeria.",
+        "jurisdiction": "United States"
+      },
+      "sources": [
+        {
+          "name": "FDA enforcement report: Boar's Head potential Listeria",
+          "url": "https://api.fda.gov/food/enforcement.json?search=recall_number:%22F-1703-2024%22",
+          "type": "regulator",
+          "accessed": "2026-07-06"
+        }
+      ],
+      "score_penalty": 55,
+      "score_cap": 20,
+      "display": {
+        "badge": "FDA recall",
+        "tone": "red"
+      }
+    },
+    {
+      "id": "lipman-cucumber-super-select-salmonella-2025",
+      "status": "active",
+      "scope": "product_line",
+      "match": {
+        "barcodes": [],
+        "brand_names": [
+          "Lipman Produce",
+          "Lipman Family Farms",
+          "Dairyland Produce"
+        ],
+        "product_keywords": [
+          "cucumber super select",
+          "cucumber select",
+          "cucumber"
+        ],
+        "category_tags": [
+          "cucumbers",
+          "vegetables",
+          "produce"
+        ],
+        "countries": [
+          "US"
+        ]
+      },
+      "type": "recall",
+      "severity": "high",
+      "confidence": "high",
+      "title": "Potential Salmonella in cucumbers",
+      "short": "FDA enforcement data lists Lipman/Dairyland cucumber products recalled for potential Salmonella contamination.",
+      "details": "Lipman Family Farms recalled cucumber products distributed under Lipman/Dairyland descriptions because of potential Salmonella contamination.",
+      "substances": [
+        "Salmonella"
+      ],
+      "evidence": {
+        "year": 2025,
+        "summary": "FDA enforcement report H-0030-2025 for cucumber products with potential Salmonella contamination.",
+        "jurisdiction": "United States"
+      },
+      "sources": [
+        {
+          "name": "FDA enforcement report: Lipman cucumber potential Salmonella",
+          "url": "https://api.fda.gov/food/enforcement.json?search=recall_number:%22H-0030-2025%22",
+          "type": "regulator",
+          "accessed": "2026-07-06"
+        }
+      ],
+      "score_penalty": 30,
+      "score_cap": 40,
+      "display": {
+        "badge": "FDA recall",
+        "tone": "red"
+      }
+    },
+    {
+      "id": "elite-rice-cakes-salmonella-2022",
+      "status": "active",
+      "scope": "product_line",
+      "match": {
+        "barcodes": [],
+        "brand_names": [
+          "Elite"
+        ],
+        "product_keywords": [
+          "milk chocolate coated rice cakes",
+          "chocolate coated rice cakes",
+          "rice cakes"
+        ],
+        "category_tags": [
+          "rice-cakes",
+          "chocolate",
+          "snacks"
+        ],
+        "countries": [
+          "US"
+        ]
+      },
+      "type": "recall",
+      "severity": "high",
+      "confidence": "high",
+      "title": "Potential Salmonella in rice cakes",
+      "short": "FDA enforcement data lists Elite milk chocolate coated rice cakes recalled for potential Salmonella contamination.",
+      "details": "Elite milk chocolate coated rice cakes were listed in FDA enforcement data for potential Salmonella contamination.",
+      "substances": [
+        "Salmonella"
+      ],
+      "evidence": {
+        "year": 2022,
+        "summary": "FDA enforcement report F-1233-2022 for Elite chocolate coated rice cakes with potential Salmonella.",
+        "jurisdiction": "United States"
+      },
+      "sources": [
+        {
+          "name": "FDA enforcement report: Potential Salmonella in rice cakes",
+          "url": "https://api.fda.gov/food/enforcement.json?search=recall_number:%22F-1233-2022%22",
+          "type": "regulator",
+          "accessed": "2026-07-06"
+        }
+      ],
+      "score_penalty": 35,
+      "score_cap": 35,
+      "display": {
+        "badge": "FDA recall",
+        "tone": "red"
+      }
+    },
+    {
+      "id": "tgd-mix-fruit-aloha-bowl-salmonella-2024",
+      "status": "active",
+      "scope": "product_line",
+      "match": {
+        "barcodes": [],
+        "brand_names": [
+          "TGD Cuts"
+        ],
+        "product_keywords": [
+          "mix fruit aloha bowl",
+          "aloha bowl",
+          "fruit bowl",
+          "cut fruit"
+        ],
+        "category_tags": [
+          "fruit",
+          "cut-fruit",
+          "fresh-fruit"
+        ],
+        "countries": [
+          "US"
+        ]
+      },
+      "type": "recall",
+      "severity": "high",
+      "confidence": "high",
+      "title": "Potential Salmonella in cut fruit",
+      "short": "FDA enforcement data lists TGD Cuts Mix Fruit Aloha Bowl recalled for potential Salmonella contamination.",
+      "details": "TGD Cuts recalled Mix Fruit Aloha Bowl products after FDA enforcement data listed potential Salmonella contamination.",
+      "substances": [
+        "Salmonella"
+      ],
+      "evidence": {
+        "year": 2024,
+        "summary": "FDA enforcement report F-0678-2024 for Mix Fruit Aloha Bowl with potential Salmonella.",
+        "jurisdiction": "United States"
+      },
+      "sources": [
+        {
+          "name": "FDA enforcement report: Potential Salmonella in cut fruit",
+          "url": "https://api.fda.gov/food/enforcement.json?search=recall_number:%22F-0678-2024%22",
+          "type": "regulator",
+          "accessed": "2026-07-06"
+        }
+      ],
+      "score_penalty": 35,
+      "score_cap": 35,
+      "display": {
+        "badge": "FDA recall",
+        "tone": "red"
+      }
+    },
+    {
+      "id": "hellofresh-everyplate-onions-salmonella-2021",
+      "status": "active",
+      "scope": "product_line",
+      "match": {
+        "barcodes": [],
+        "brand_names": [
+          "HelloFresh",
+          "EveryPlate"
+        ],
+        "product_keywords": [
+          "meal kit",
+          "onions",
+          "production week",
+          "meal kit product"
+        ],
+        "category_tags": [
+          "meal-kits",
+          "onions"
+        ],
+        "countries": [
+          "US"
+        ]
+      },
+      "type": "recall",
+      "severity": "critical",
+      "confidence": "high",
+      "title": "Meal kits linked to Salmonella onions",
+      "short": "FDA enforcement data lists HelloFresh/EveryPlate meal kits recalled because onions were associated with a Salmonella outbreak.",
+      "details": "HelloFresh/EveryPlate meal kits were listed in FDA enforcement data because they contained onions purchased from a supplier associated with a Salmonella Oranienburg outbreak.",
+      "substances": [
+        "Salmonella Oranienburg"
+      ],
+      "evidence": {
+        "year": 2021,
+        "summary": "FDA enforcement report F-0202-2022 for meal kits containing onions associated with a Salmonella outbreak.",
+        "jurisdiction": "United States"
+      },
+      "sources": [
+        {
+          "name": "FDA enforcement report: Meal kits linked to Salmonella onions",
+          "url": "https://api.fda.gov/food/enforcement.json?search=recall_number:%22F-0202-2022%22",
+          "type": "regulator",
+          "accessed": "2026-07-06"
+        }
+      ],
+      "score_penalty": 50,
+      "score_cap": 20,
+      "display": {
+        "badge": "FDA recall",
+        "tone": "red"
+      }
+    },
+    {
+      "id": "snak-king-cashew-clusters-salmonella-2017",
+      "status": "active",
+      "scope": "product_line",
+      "match": {
+        "barcodes": [],
+        "brand_names": [
+          "Snak King"
+        ],
+        "product_keywords": [
+          "cashew clusters",
+          "cashew",
+          "clusters"
+        ],
+        "category_tags": [
+          "nuts",
+          "snacks"
+        ],
+        "countries": [
+          "US"
+        ]
+      },
+      "type": "recall",
+      "severity": "high",
+      "confidence": "high",
+      "title": "Potential Salmonella in cashew clusters",
+      "short": "FDA enforcement data lists Snak King cashew clusters recalled for potential Salmonella contamination.",
+      "details": "Snak King recalled cashew clusters because the product may have been contaminated with Salmonella.",
+      "substances": [
+        "Salmonella"
+      ],
+      "evidence": {
+        "year": 2017,
+        "summary": "FDA enforcement report F-1554-2017 for cashew clusters with potential Salmonella.",
+        "jurisdiction": "United States"
+      },
+      "sources": [
+        {
+          "name": "FDA enforcement report: Potential Salmonella in cashew clusters",
+          "url": "https://api.fda.gov/food/enforcement.json?search=recall_number:%22F-1554-2017%22",
+          "type": "regulator",
+          "accessed": "2026-07-06"
+        }
+      ],
+      "score_penalty": 35,
+      "score_cap": 35,
+      "display": {
+        "badge": "FDA recall",
+        "tone": "red"
+      }
+    },
+    {
+      "id": "cadia-sunland-peanut-butter-salmonella-2012",
+      "status": "active",
+      "scope": "product_line",
+      "match": {
+        "barcodes": [],
+        "brand_names": [
+          "Cadia",
+          "Sunland"
+        ],
+        "product_keywords": [
+          "peanut butter",
+          "almond butter",
+          "cashew butter",
+          "tahini"
+        ],
+        "category_tags": [
+          "peanut-butter",
+          "nut-butters",
+          "spreads"
+        ],
+        "countries": [
+          "US"
+        ]
+      },
+      "type": "recall",
+      "severity": "critical",
+      "confidence": "high",
+      "title": "Nut butters linked to Salmonella recall",
+      "short": "FDA enforcement data lists Cadia/Sunland nut butter products recalled during a Salmonella-related recall.",
+      "details": "Cadia peanut butter and related Sunland nut butter products were listed in FDA enforcement data as part of a Salmonella-related recall.",
+      "substances": [
+        "Salmonella"
+      ],
+      "evidence": {
+        "year": 2012,
+        "summary": "FDA enforcement report F-0426-2013 for Sunland/Cadia nut butter products in a Salmonella-related recall.",
+        "jurisdiction": "United States"
+      },
+      "sources": [
+        {
+          "name": "FDA enforcement report: Nut butters linked to Salmonella recall",
+          "url": "https://api.fda.gov/food/enforcement.json?search=recall_number:%22F-0426-2013%22",
+          "type": "regulator",
+          "accessed": "2026-07-06"
+        }
+      ],
+      "score_penalty": 45,
+      "score_cap": 25,
+      "display": {
+        "badge": "FDA recall",
+        "tone": "red"
+      }
+    },
+    {
+      "id": "sunland-peanut-butter-salmonella-2012",
+      "status": "active",
+      "scope": "product_line",
+      "match": {
+        "barcodes": [],
+        "brand_names": [
+          "Sunland"
+        ],
+        "product_keywords": [
+          "creamy peanut butter",
+          "peanut butter",
+          "sea salt"
+        ],
+        "category_tags": [
+          "peanut-butter",
+          "nut-butters",
+          "spreads"
+        ],
+        "countries": [
+          "US"
+        ]
+      },
+      "type": "recall",
+      "severity": "critical",
+      "confidence": "high",
+      "title": "Salmonella recall for peanut butter",
+      "short": "FDA enforcement data lists Sunland peanut butter products recalled during a Salmonella-related recall.",
+      "details": "Sunland peanut butter products were listed in FDA enforcement data as part of a Salmonella-related recall of nut butter products.",
+      "substances": [
+        "Salmonella"
+      ],
+      "evidence": {
+        "year": 2012,
+        "summary": "FDA enforcement report F-0369-2013 for Sunland peanut butter products in a Salmonella-related recall.",
+        "jurisdiction": "United States"
+      },
+      "sources": [
+        {
+          "name": "FDA enforcement report: Salmonella recall for peanut butter",
+          "url": "https://api.fda.gov/food/enforcement.json?search=recall_number:%22F-0369-2013%22",
+          "type": "regulator",
+          "accessed": "2026-07-06"
+        }
+      ],
+      "score_penalty": 45,
+      "score_cap": 25,
+      "display": {
+        "badge": "FDA recall",
+        "tone": "red"
+      }
+    },
+    {
+      "id": "gills-onions-salmonella-thompson-2023",
+      "status": "active",
+      "scope": "product_line",
+      "match": {
+        "barcodes": [],
+        "brand_names": [
+          "Gills Onions",
+          "Cross Valley Farms"
+        ],
+        "product_keywords": [
+          "slivered yellow onions",
+          "yellow onions",
+          "onions"
+        ],
+        "category_tags": [
+          "onions",
+          "vegetables",
+          "produce"
+        ],
+        "countries": [
+          "US"
+        ]
+      },
+      "type": "recall",
+      "severity": "critical",
+      "confidence": "high",
+      "title": "Potential Salmonella in onions",
+      "short": "FDA enforcement data lists Gills Onions/Cross Valley Farms slivered yellow onions recalled for potential Salmonella Thompson.",
+      "details": "Gills Onions/Cross Valley Farms slivered yellow onions were listed in FDA enforcement data for potential Salmonella Thompson contamination.",
+      "substances": [
+        "Salmonella Thompson"
+      ],
+      "evidence": {
+        "year": 2023,
+        "summary": "FDA enforcement report F-0346-2024 for slivered yellow onions with potential Salmonella Thompson.",
+        "jurisdiction": "United States"
+      },
+      "sources": [
+        {
+          "name": "FDA enforcement report: Potential Salmonella in onions",
+          "url": "https://api.fda.gov/food/enforcement.json?search=recall_number:%22F-0346-2024%22",
+          "type": "regulator",
+          "accessed": "2026-07-06"
+        }
+      ],
+      "score_penalty": 50,
+      "score_cap": 20,
+      "display": {
+        "badge": "FDA recall",
+        "tone": "red"
+      }
+    },
+    {
+      "id": "kareem-chef-halva-salmonella-2021",
+      "status": "active",
+      "scope": "product_line",
+      "match": {
+        "barcodes": [],
+        "brand_names": [
+          "Kareem Chef",
+          "Kareem Mart"
+        ],
+        "product_keywords": [
+          "halva",
+          "halvah"
+        ],
+        "category_tags": [
+          "candy",
+          "desserts",
+          "snacks"
+        ],
+        "countries": [
+          "US"
+        ]
+      },
+      "type": "recall",
+      "severity": "high",
+      "confidence": "high",
+      "title": "Salmonella in halva",
+      "short": "FDA enforcement data lists Kareem Chef halva recalled for Salmonella.",
+      "details": "Kareem Chef halva products were listed in FDA enforcement data for Salmonella.",
+      "substances": [
+        "Salmonella"
+      ],
+      "evidence": {
+        "year": 2021,
+        "summary": "FDA enforcement report F-0377-2021 for Kareem Chef halva and Salmonella.",
+        "jurisdiction": "United States"
+      },
+      "sources": [
+        {
+          "name": "FDA enforcement report: Salmonella in halva",
+          "url": "https://api.fda.gov/food/enforcement.json?search=recall_number:%22F-0377-2021%22",
+          "type": "regulator",
+          "accessed": "2026-07-06"
+        }
+      ],
+      "score_penalty": 35,
+      "score_cap": 35,
+      "display": {
+        "badge": "FDA recall",
+        "tone": "red"
+      }
+    },
+    {
+      "id": "taylor-farms-roma-tomatoes-salmonella-2014",
+      "status": "active",
+      "scope": "product_line",
+      "match": {
+        "barcodes": [],
+        "brand_names": [
+          "Taylor Farms",
+          "CST"
+        ],
+        "product_keywords": [
+          "roma tomatoes",
+          "whole roma",
+          "tomatoes"
+        ],
+        "category_tags": [
+          "tomatoes",
+          "vegetables",
+          "produce"
+        ],
+        "countries": [
+          "US"
+        ]
+      },
+      "type": "recall",
+      "severity": "high",
+      "confidence": "high",
+      "title": "Potential Salmonella in Roma tomatoes",
+      "short": "FDA enforcement data lists Taylor Farms/CST Roma tomatoes recalled for potential Salmonella contamination.",
+      "details": "Taylor Farms/CST Roma tomatoes were listed in FDA enforcement data because specific lots may have been contaminated with Salmonella.",
+      "substances": [
+        "Salmonella"
+      ],
+      "evidence": {
+        "year": 2014,
+        "summary": "FDA enforcement report F-0020-2015 for Roma tomatoes with potential Salmonella.",
+        "jurisdiction": "United States"
+      },
+      "sources": [
+        {
+          "name": "FDA enforcement report: Potential Salmonella in Roma tomatoes",
+          "url": "https://api.fda.gov/food/enforcement.json?search=recall_number:%22F-0020-2015%22",
+          "type": "regulator",
+          "accessed": "2026-07-06"
+        }
+      ],
+      "score_penalty": 35,
+      "score_cap": 35,
+      "display": {
+        "badge": "FDA recall",
+        "tone": "red"
+      }
+    },
+    {
+      "id": "tiny-isle-chocolate-truffles-salmonella-2014",
+      "status": "active",
+      "scope": "product_line",
+      "match": {
+        "barcodes": [],
+        "brand_names": [
+          "Tiny Isle"
+        ],
+        "product_keywords": [
+          "chocolate truffles",
+          "macadamia nut",
+          "truffles"
+        ],
+        "category_tags": [
+          "chocolate",
+          "candy",
+          "snacks"
+        ],
+        "countries": [
+          "US"
+        ]
+      },
+      "type": "recall",
+      "severity": "high",
+      "confidence": "high",
+      "title": "Potential Salmonella in chocolate truffles",
+      "short": "FDA enforcement data lists Tiny Isle chocolate truffles recalled because an ingredient supplier had a Salmonella-related recall.",
+      "details": "Tiny Isle chocolate truffles were listed in FDA enforcement data because they used carob powder under supplier recall for potential Salmonella contamination.",
+      "substances": [
+        "Salmonella"
+      ],
+      "evidence": {
+        "year": 2014,
+        "summary": "FDA enforcement report F-2387-2014 for Tiny Isle chocolate truffles and potential Salmonella.",
+        "jurisdiction": "United States"
+      },
+      "sources": [
+        {
+          "name": "FDA enforcement report: Potential Salmonella in chocolate truffles",
+          "url": "https://api.fda.gov/food/enforcement.json?search=recall_number:%22F-2387-2014%22",
+          "type": "regulator",
+          "accessed": "2026-07-06"
+        }
+      ],
+      "score_penalty": 30,
+      "score_cap": 40,
+      "display": {
+        "badge": "FDA recall",
+        "tone": "red"
+      }
+    },
+    {
+      "id": "wegmans-del-monte-fruit-delight-listeria-2014",
+      "status": "active",
+      "scope": "product_line",
+      "match": {
+        "barcodes": [],
+        "brand_names": [
+          "Wegmans",
+          "Del Monte"
+        ],
+        "product_keywords": [
+          "gourmet mix fruit delight",
+          "fruit delight",
+          "cut fruit"
+        ],
+        "category_tags": [
+          "fruit",
+          "cut-fruit",
+          "fresh-fruit"
+        ],
+        "countries": [
+          "US"
+        ]
+      },
+      "type": "recall",
+      "severity": "critical",
+      "confidence": "high",
+      "title": "Possible Listeria in cut fruit",
+      "short": "FDA enforcement data lists Wegmans/Del Monte Gourmet Mix Fruit Delight recalled for possible Listeria monocytogenes.",
+      "details": "Wegmans/Del Monte Gourmet Mix Fruit Delight was listed in FDA enforcement data for possible Listeria monocytogenes contamination.",
+      "substances": [
+        "Listeria monocytogenes"
+      ],
+      "evidence": {
+        "year": 2014,
+        "summary": "FDA enforcement report F-0777-2015 for Gourmet Mix Fruit Delight with possible Listeria.",
+        "jurisdiction": "United States"
+      },
+      "sources": [
+        {
+          "name": "FDA enforcement report: Possible Listeria in cut fruit",
+          "url": "https://api.fda.gov/food/enforcement.json?search=recall_number:%22F-0777-2015%22",
+          "type": "regulator",
+          "accessed": "2026-07-06"
+        }
+      ],
+      "score_penalty": 50,
+      "score_cap": 20,
+      "display": {
+        "badge": "FDA recall",
+        "tone": "red"
+      }
+    },
+    {
+      "id": "apple-ridge-fresh-apples-listeria-2017",
+      "status": "active",
+      "scope": "product_line",
+      "match": {
+        "barcodes": [],
+        "brand_names": [
+          "Apple Ridge",
+          "Nyblad Orchards"
+        ],
+        "product_keywords": [
+          "golden delicious apples",
+          "fresh apples",
+          "whole fresh apples",
+          "apples"
+        ],
+        "category_tags": [
+          "apples",
+          "fruit",
+          "produce"
+        ],
+        "countries": [
+          "US"
+        ]
+      },
+      "type": "recall",
+      "severity": "high",
+      "confidence": "high",
+      "title": "Potential Listeria in apples",
+      "short": "FDA enforcement data lists Apple Ridge/Nyblad Orchards fresh apples recalled for potential Listeria monocytogenes.",
+      "details": "Apple Ridge/Nyblad Orchards fresh apples were listed in FDA enforcement data for potential Listeria monocytogenes contamination.",
+      "substances": [
+        "Listeria monocytogenes"
+      ],
+      "evidence": {
+        "year": 2017,
+        "summary": "FDA enforcement report F-0616-2018 for fresh apples with potential Listeria.",
+        "jurisdiction": "United States"
+      },
+      "sources": [
+        {
+          "name": "FDA enforcement report: Potential Listeria in apples",
+          "url": "https://api.fda.gov/food/enforcement.json?search=recall_number:%22F-0616-2018%22",
+          "type": "regulator",
+          "accessed": "2026-07-06"
+        }
+      ],
+      "score_penalty": 35,
+      "score_cap": 35,
+      "display": {
+        "badge": "FDA recall",
+        "tone": "red"
+      }
+    },
+    {
+      "id": "blue-bell-ice-cream-listeria-2015",
+      "status": "active",
+      "scope": "product_line",
+      "match": {
+        "barcodes": [],
+        "brand_names": [
+          "Blue Bell"
+        ],
+        "product_keywords": [
+          "ice cream",
+          "blueberry cheesecake",
+          "frozen dessert"
+        ],
+        "category_tags": [
+          "ice-cream",
+          "frozen-desserts",
+          "dairy"
+        ],
+        "countries": [
+          "US"
+        ]
+      },
+      "type": "recall",
+      "severity": "critical",
+      "confidence": "high",
+      "title": "Listeria linked to Blue Bell ice cream",
+      "short": "FDA enforcement data lists Blue Bell ice cream products in a Listeria-related recall tied to patient illnesses.",
+      "details": "Blue Bell ice cream products were listed in FDA enforcement data after patients were infected with rare strains of Listeria monocytogenes.",
+      "substances": [
+        "Listeria monocytogenes"
+      ],
+      "evidence": {
+        "year": 2015,
+        "summary": "FDA enforcement report F-2543-2015 for Blue Bell ice cream in a Listeria-related recall.",
+        "jurisdiction": "United States"
+      },
+      "sources": [
+        {
+          "name": "FDA enforcement report: Listeria linked to Blue Bell ice cream",
+          "url": "https://api.fda.gov/food/enforcement.json?search=recall_number:%22F-2543-2015%22",
+          "type": "regulator",
+          "accessed": "2026-07-06"
+        }
+      ],
+      "score_penalty": 60,
+      "score_cap": 15,
+      "display": {
+        "badge": "FDA recall",
+        "tone": "red"
+      }
+    },
+    {
+      "id": "working-cow-ice-cream-listeria-2018",
+      "status": "active",
+      "scope": "product_line",
+      "match": {
+        "barcodes": [],
+        "brand_names": [
+          "Working Cow",
+          "JY"
+        ],
+        "product_keywords": [
+          "vanilla bean ice cream",
+          "spiderman ice cream",
+          "ice cream"
+        ],
+        "category_tags": [
+          "ice-cream",
+          "frozen-desserts",
+          "dairy"
+        ],
+        "countries": [
+          "US"
+        ]
+      },
+      "type": "recall",
+      "severity": "critical",
+      "confidence": "high",
+      "title": "Potential Listeria in ice cream",
+      "short": "FDA enforcement data lists Working Cow ice cream products recalled for potential Listeria monocytogenes.",
+      "details": "Working Cow ice cream products were listed in FDA enforcement data for potential Listeria monocytogenes contamination.",
+      "substances": [
+        "Listeria monocytogenes"
+      ],
+      "evidence": {
+        "year": 2018,
+        "summary": "FDA enforcement report F-0441-2019 for Working Cow ice cream with potential Listeria.",
+        "jurisdiction": "United States"
+      },
+      "sources": [
+        {
+          "name": "FDA enforcement report: Potential Listeria in ice cream",
+          "url": "https://api.fda.gov/food/enforcement.json?search=recall_number:%22F-0441-2019%22",
+          "type": "regulator",
+          "accessed": "2026-07-06"
+        }
+      ],
+      "score_penalty": 50,
+      "score_cap": 20,
+      "display": {
+        "badge": "FDA recall",
+        "tone": "red"
+      }
+    },
+    {
+      "id": "publix-cookies-cream-cake-listeria-2012",
+      "status": "active",
+      "scope": "product_line",
+      "match": {
+        "barcodes": [],
+        "brand_names": [
+          "Publix"
+        ],
+        "product_keywords": [
+          "cookies cream layer cake",
+          "layer cake",
+          "cake"
+        ],
+        "category_tags": [
+          "cake",
+          "bakery",
+          "desserts"
+        ],
+        "countries": [
+          "US"
+        ]
+      },
+      "type": "recall",
+      "severity": "high",
+      "confidence": "high",
+      "title": "Listeria risk in bakery cake",
+      "short": "FDA enforcement data lists Publix Cookies Cream Layer Cake recalled after supplier contamination with Listeria monocytogenes.",
+      "details": "Publix Cookies Cream Layer Cake was listed in FDA enforcement data after the supplier notified Publix of Listeria monocytogenes contamination.",
+      "substances": [
+        "Listeria monocytogenes"
+      ],
+      "evidence": {
+        "year": 2012,
+        "summary": "FDA enforcement report F-1146-2013 for Publix cake with Listeria-related supplier issue.",
+        "jurisdiction": "United States"
+      },
+      "sources": [
+        {
+          "name": "FDA enforcement report: Listeria risk in bakery cake",
+          "url": "https://api.fda.gov/food/enforcement.json?search=recall_number:%22F-1146-2013%22",
+          "type": "regulator",
+          "accessed": "2026-07-06"
+        }
+      ],
+      "score_penalty": 35,
+      "score_cap": 35,
+      "display": {
+        "badge": "FDA recall",
+        "tone": "red"
+      }
+    },
+    {
+      "id": "triple-b-stir-fry-kit-listeria-2017",
+      "status": "active",
+      "scope": "product_line",
+      "match": {
+        "barcodes": [],
+        "brand_names": [
+          "Triple B",
+          "Alaska Carrot"
+        ],
+        "product_keywords": [
+          "stir fry kit",
+          "broccoli",
+          "carrot",
+          "vegetable kit"
+        ],
+        "category_tags": [
+          "vegetables",
+          "stir-fry",
+          "produce"
+        ],
+        "countries": [
+          "US"
+        ]
+      },
+      "type": "recall",
+      "severity": "high",
+      "confidence": "high",
+      "title": "Possible Listeria in stir fry kit",
+      "short": "FDA enforcement data lists a Triple B stir fry kit recalled because broccoli used in it was recalled for possible Listeria.",
+      "details": "A Triple B stir fry kit was listed in FDA enforcement data because broccoli used in the product had been recalled for possible Listeria monocytogenes.",
+      "substances": [
+        "Listeria monocytogenes"
+      ],
+      "evidence": {
+        "year": 2017,
+        "summary": "FDA enforcement report F-0163-2018 for stir fry kit with possible Listeria.",
+        "jurisdiction": "United States"
+      },
+      "sources": [
+        {
+          "name": "FDA enforcement report: Possible Listeria in stir fry kit",
+          "url": "https://api.fda.gov/food/enforcement.json?search=recall_number:%22F-0163-2018%22",
+          "type": "regulator",
+          "accessed": "2026-07-06"
+        }
+      ],
+      "score_penalty": 35,
+      "score_cap": 35,
+      "display": {
+        "badge": "FDA recall",
+        "tone": "red"
+      }
+    },
+    {
+      "id": "rachaels-big-y-protein-snack-packs-listeria-2020",
+      "status": "active",
+      "scope": "product_line",
+      "match": {
+        "barcodes": [],
+        "brand_names": [
+          "Rachael's",
+          "Big Y"
+        ],
+        "product_keywords": [
+          "protein snack packs",
+          "snack packs",
+          "hard boiled egg",
+          "turkey",
+          "almonds"
+        ],
+        "category_tags": [
+          "snack-packs",
+          "eggs",
+          "meat"
+        ],
+        "countries": [
+          "US"
+        ]
+      },
+      "type": "recall",
+      "severity": "critical",
+      "confidence": "high",
+      "title": "Potential Listeria in protein snack packs",
+      "short": "FDA enforcement data lists Rachael's and Big Y protein snack packs recalled for potential Listeria monocytogenes.",
+      "details": "Rachael's/Big Y protein snack packs were listed in FDA enforcement data for potential Listeria monocytogenes contamination.",
+      "substances": [
+        "Listeria monocytogenes"
+      ],
+      "evidence": {
+        "year": 2020,
+        "summary": "FDA enforcement report F-0597-2020 for protein snack packs with potential Listeria.",
+        "jurisdiction": "United States"
+      },
+      "sources": [
+        {
+          "name": "FDA enforcement report: Potential Listeria in protein snack packs",
+          "url": "https://api.fda.gov/food/enforcement.json?search=recall_number:%22F-0597-2020%22",
+          "type": "regulator",
+          "accessed": "2026-07-06"
+        }
+      ],
+      "score_penalty": 50,
+      "score_cap": 20,
+      "display": {
+        "badge": "FDA recall",
+        "tone": "red"
+      }
+    },
+    {
+      "id": "fresh-ideation-bistro-cheese-fruit-plate-listeria-2023",
+      "status": "active",
+      "scope": "product_line",
+      "match": {
+        "barcodes": [],
+        "brand_names": [
+          "Bistro To Go",
+          "Fresh Creative Cuisine",
+          "Fresh Ideation"
+        ],
+        "product_keywords": [
+          "gourmet cheese fruit plate",
+          "cheese and fruit plate",
+          "fruit plate",
+          "cheese plate"
+        ],
+        "category_tags": [
+          "cheese",
+          "fruit",
+          "ready-to-eat"
+        ],
+        "countries": [
+          "US"
+        ]
+      },
+      "type": "recall",
+      "severity": "critical",
+      "confidence": "high",
+      "title": "Listeria risk in ready-to-eat foods",
+      "short": "FDA enforcement data lists Fresh Ideation/Bistro To Go ready-to-eat products recalled for Listeria risk.",
+      "details": "Fresh Ideation/Fresh Creative Cuisine ready-to-eat products, including Bistro To Go cheese and fruit plates, were listed in FDA enforcement data for Listeria risk.",
+      "substances": [
+        "Listeria monocytogenes"
+      ],
+      "evidence": {
+        "year": 2023,
+        "summary": "FDA enforcement report F-0459-2023 for ready-to-eat foods with Listeria risk.",
+        "jurisdiction": "United States"
+      },
+      "sources": [
+        {
+          "name": "FDA enforcement report: Listeria risk in ready-to-eat foods",
+          "url": "https://api.fda.gov/food/enforcement.json?search=recall_number:%22F-0459-2023%22",
+          "type": "regulator",
+          "accessed": "2026-07-06"
+        }
+      ],
+      "score_penalty": 50,
+      "score_cap": 20,
+      "display": {
+        "badge": "FDA recall",
+        "tone": "red"
+      }
+    },
+    {
+      "id": "treehouse-sunflower-seeds-listeria-2016",
+      "status": "active",
+      "scope": "product_line",
+      "match": {
+        "barcodes": [],
+        "brand_names": [
+          "Treehouse",
+          "TreeHouse Foods",
+          "Amport"
+        ],
+        "product_keywords": [
+          "sunflower seeds",
+          "roasted salted sunflower seeds"
+        ],
+        "category_tags": [
+          "seeds",
+          "snacks"
+        ],
+        "countries": [
+          "US"
+        ]
+      },
+      "type": "recall",
+      "severity": "high",
+      "confidence": "high",
+      "title": "Listeria risk in sunflower seeds",
+      "short": "FDA enforcement data lists TreeHouse/Amport sunflower seed products recalled because seeds may have been contaminated with Listeria.",
+      "details": "TreeHouse Foods sunflower seed products were listed in FDA enforcement data because sunflower seeds may have been contaminated with Listeria monocytogenes.",
+      "substances": [
+        "Listeria monocytogenes"
+      ],
+      "evidence": {
+        "year": 2016,
+        "summary": "FDA enforcement report F-2425-2016 for sunflower seeds with Listeria risk.",
+        "jurisdiction": "United States"
+      },
+      "sources": [
+        {
+          "name": "FDA enforcement report: Listeria risk in sunflower seeds",
+          "url": "https://api.fda.gov/food/enforcement.json?search=recall_number:%22F-2425-2016%22",
+          "type": "regulator",
+          "accessed": "2026-07-06"
+        }
+      ],
+      "score_penalty": 35,
+      "score_cap": 35,
+      "display": {
+        "badge": "FDA recall",
+        "tone": "red"
+      }
+    },
+    {
+      "id": "resers-tuna-salad-listeria-2014",
+      "status": "active",
+      "scope": "product_line",
+      "match": {
+        "barcodes": [],
+        "brand_names": [
+          "Reser's",
+          "Essential Everyday"
+        ],
+        "product_keywords": [
+          "tuna salad",
+          "deli salad"
+        ],
+        "category_tags": [
+          "deli-salad",
+          "tuna-salad",
+          "ready-to-eat"
+        ],
+        "countries": [
+          "US"
+        ]
+      },
+      "type": "recall",
+      "severity": "high",
+      "confidence": "high",
+      "title": "Potential Listeria in tuna salad",
+      "short": "FDA enforcement data lists Reser's/Essential Everyday tuna salad recalled for potential Listeria monocytogenes.",
+      "details": "Reser's/Essential Everyday tuna salad was listed in FDA enforcement data for potential Listeria monocytogenes contamination.",
+      "substances": [
+        "Listeria monocytogenes"
+      ],
+      "evidence": {
+        "year": 2014,
+        "summary": "FDA enforcement report F-1216-2014 for tuna salad with potential Listeria.",
+        "jurisdiction": "United States"
+      },
+      "sources": [
+        {
+          "name": "FDA enforcement report: Potential Listeria in tuna salad",
+          "url": "https://api.fda.gov/food/enforcement.json?search=recall_number:%22F-1216-2014%22",
+          "type": "regulator",
+          "accessed": "2026-07-06"
+        }
+      ],
+      "score_penalty": 35,
+      "score_cap": 35,
+      "display": {
+        "badge": "FDA recall",
+        "tone": "red"
+      }
+    },
+    {
+      "id": "sun-life-sunflower-spread-listeria-2016",
+      "status": "active",
+      "scope": "product_line",
+      "match": {
+        "barcodes": [],
+        "brand_names": [
+          "Sun Life",
+          "Nu Life Market"
+        ],
+        "product_keywords": [
+          "sunflower spread",
+          "sunflower spread with maple",
+          "spread"
+        ],
+        "category_tags": [
+          "spreads",
+          "sunflower-seed",
+          "snacks"
+        ],
+        "countries": [
+          "US"
+        ]
+      },
+      "type": "recall",
+      "severity": "high",
+      "confidence": "high",
+      "title": "Listeria risk in sunflower spread",
+      "short": "FDA enforcement data lists Sun Life sunflower spread recalled because roasted sunflower kernels may have been contaminated with Listeria.",
+      "details": "Sun Life sunflower spread was listed in FDA enforcement data because it used roasted sunflower kernels that may have been contaminated with Listeria monocytogenes.",
+      "substances": [
+        "Listeria monocytogenes"
+      ],
+      "evidence": {
+        "year": 2016,
+        "summary": "FDA enforcement report F-1928-2016 for sunflower spread with Listeria risk.",
+        "jurisdiction": "United States"
+      },
+      "sources": [
+        {
+          "name": "FDA enforcement report: Listeria risk in sunflower spread",
+          "url": "https://api.fda.gov/food/enforcement.json?search=recall_number:%22F-1928-2016%22",
+          "type": "regulator",
+          "accessed": "2026-07-06"
+        }
+      ],
+      "score_penalty": 35,
+      "score_cap": 35,
+      "display": {
+        "badge": "FDA recall",
+        "tone": "red"
+      }
+    },
+    {
+      "id": "oasis-santa-martha-cream-cheese-listeria-2014",
+      "status": "active",
+      "scope": "product_line",
+      "match": {
+        "barcodes": [],
+        "brand_names": [
+          "Oasis",
+          "Santa Martha",
+          "GuateLinda"
+        ],
+        "product_keywords": [
+          "crema guatelinda",
+          "quesito casero",
+          "fresh curd",
+          "cream",
+          "cheese"
+        ],
+        "category_tags": [
+          "cheese",
+          "dairy",
+          "cream"
+        ],
+        "countries": [
+          "US"
+        ]
+      },
+      "type": "recall",
+      "severity": "critical",
+      "confidence": "high",
+      "title": "Listeria in dairy products",
+      "short": "FDA enforcement data lists Oasis/Santa Martha dairy products recalled after Listeria monocytogenes was found.",
+      "details": "Oasis/Santa Martha dairy products were listed in FDA enforcement data after Listeria monocytogenes was found in related fresh curd/cheese products.",
+      "substances": [
+        "Listeria monocytogenes"
+      ],
+      "evidence": {
+        "year": 2014,
+        "summary": "FDA enforcement report F-0609-2015 for dairy products with Listeria.",
+        "jurisdiction": "United States"
+      },
+      "sources": [
+        {
+          "name": "FDA enforcement report: Listeria in dairy products",
+          "url": "https://api.fda.gov/food/enforcement.json?search=recall_number:%22F-0609-2015%22",
+          "type": "regulator",
+          "accessed": "2026-07-06"
+        }
+      ],
+      "score_penalty": 50,
+      "score_cap": 20,
+      "display": {
+        "badge": "FDA recall",
+        "tone": "red"
+      }
+    },
+    {
+      "id": "foxy-california-pistachio-listeria-2017",
+      "status": "active",
+      "scope": "product_line",
+      "match": {
+        "barcodes": [],
+        "brand_names": [
+          "Foxy's",
+          "Foxy",
+          "Altijira Murray"
+        ],
+        "product_keywords": [
+          "california pistachio",
+          "pistachio"
+        ],
+        "category_tags": [
+          "nuts",
+          "pistachios",
+          "snacks"
+        ],
+        "countries": [
+          "US"
+        ]
+      },
+      "type": "recall",
+      "severity": "high",
+      "confidence": "high",
+      "title": "Potential Listeria in pistachio",
+      "short": "FDA enforcement data lists Foxy's California pistachio recalled for potential Listeria monocytogenes.",
+      "details": "Foxy's California pistachio was listed in FDA enforcement data for potential Listeria monocytogenes contamination.",
+      "substances": [
+        "Listeria monocytogenes"
+      ],
+      "evidence": {
+        "year": 2017,
+        "summary": "FDA enforcement report F-1540-2017 for pistachio with potential Listeria.",
+        "jurisdiction": "United States"
+      },
+      "sources": [
+        {
+          "name": "FDA enforcement report: Potential Listeria in pistachio",
+          "url": "https://api.fda.gov/food/enforcement.json?search=recall_number:%22F-1540-2017%22",
+          "type": "regulator",
+          "accessed": "2026-07-06"
+        }
+      ],
+      "score_penalty": 35,
+      "score_cap": 35,
+      "display": {
+        "badge": "FDA recall",
+        "tone": "red"
+      }
+    },
+    {
+      "id": "savory-foods-peanut-butter-cookies-listeria-2016",
+      "status": "active",
+      "scope": "product_line",
+      "match": {
+        "barcodes": [],
+        "brand_names": [
+          "Savory Foods"
+        ],
+        "product_keywords": [
+          "peanut butter cookies",
+          "cookies"
+        ],
+        "category_tags": [
+          "cookies",
+          "bakery",
+          "snacks"
+        ],
+        "countries": [
+          "US"
+        ]
+      },
+      "type": "recall",
+      "severity": "high",
+      "confidence": "high",
+      "title": "Potential Listeria in cookies",
+      "short": "FDA enforcement data lists Savory Foods peanut butter cookies recalled for potential Listeria monocytogenes.",
+      "details": "Savory Foods peanut butter cookies were listed in FDA enforcement data for potential Listeria monocytogenes contamination.",
+      "substances": [
+        "Listeria monocytogenes"
+      ],
+      "evidence": {
+        "year": 2016,
+        "summary": "FDA enforcement report F-2473-2016 for peanut butter cookies with potential Listeria.",
+        "jurisdiction": "United States"
+      },
+      "sources": [
+        {
+          "name": "FDA enforcement report: Potential Listeria in cookies",
+          "url": "https://api.fda.gov/food/enforcement.json?search=recall_number:%22F-2473-2016%22",
+          "type": "regulator",
+          "accessed": "2026-07-06"
+        }
+      ],
+      "score_penalty": 35,
+      "score_cap": 35,
+      "display": {
+        "badge": "FDA recall",
+        "tone": "red"
+      }
+    },
+    {
+      "id": "twin-sisters-whatcom-blue-cheese-ecoli-2025",
+      "status": "active",
+      "scope": "product_line",
+      "match": {
+        "barcodes": [],
+        "brand_names": [
+          "Twin Sisters Creamery"
+        ],
+        "product_keywords": [
+          "whatcom blue cheese",
+          "blue cheese",
+          "raw milk cheese"
+        ],
+        "category_tags": [
+          "cheese",
+          "dairy",
+          "raw-milk-cheese"
+        ],
+        "countries": [
+          "US"
+        ]
+      },
+      "type": "recall",
+      "severity": "critical",
+      "confidence": "high",
+      "title": "E. coli in raw milk cheese",
+      "short": "FDA enforcement data lists Twin Sisters Creamery Whatcom Blue cheese recalled due to E. coli O103:H2.",
+      "details": "Twin Sisters Creamery Whatcom Blue raw milk cheese was listed in FDA enforcement data for E. coli O103:H2.",
+      "substances": [
+        "E. coli O103:H2"
+      ],
+      "evidence": {
+        "year": 2025,
+        "summary": "FDA enforcement report H-0193-2026 for Whatcom Blue cheese due to E. coli O103:H2.",
+        "jurisdiction": "United States"
+      },
+      "sources": [
+        {
+          "name": "FDA enforcement report: E. coli in raw milk cheese",
+          "url": "https://api.fda.gov/food/enforcement.json?search=recall_number:%22H-0193-2026%22",
+          "type": "regulator",
+          "accessed": "2026-07-06"
+        }
+      ],
+      "score_penalty": 55,
+      "score_cap": 20,
+      "display": {
+        "badge": "FDA recall",
+        "tone": "red"
+      }
+    },
+    {
+      "id": "whole-foods-whatcom-blue-cheese-ecoli-2025",
+      "status": "active",
+      "scope": "product_line",
+      "match": {
+        "barcodes": [],
+        "brand_names": [
+          "Whole Foods",
+          "Twin Sisters Creamery"
+        ],
+        "product_keywords": [
+          "whatcom blue sliced cheese",
+          "whatcom blue",
+          "sliced cheese",
+          "blue cheese"
+        ],
+        "category_tags": [
+          "cheese",
+          "dairy"
+        ],
+        "countries": [
+          "US"
+        ]
+      },
+      "type": "recall",
+      "severity": "critical",
+      "confidence": "high",
+      "title": "E. coli risk in sliced cheese",
+      "short": "FDA enforcement data lists Whole Foods Whatcom Blue sliced cheese recalled after supplier testing identified E. coli contamination risk.",
+      "details": "Whole Foods Whatcom Blue sliced cheese was listed in FDA enforcement data after supplier testing identified potential STEC and E. coli O103 contamination.",
+      "substances": [
+        "STEC",
+        "E. coli O103"
+      ],
+      "evidence": {
+        "year": 2025,
+        "summary": "FDA enforcement report H-0210-2026 for Whole Foods Whatcom Blue sliced cheese with E. coli risk.",
+        "jurisdiction": "United States"
+      },
+      "sources": [
+        {
+          "name": "FDA enforcement report: E. coli risk in sliced cheese",
+          "url": "https://api.fda.gov/food/enforcement.json?search=recall_number:%22H-0210-2026%22",
+          "type": "regulator",
+          "accessed": "2026-07-06"
+        }
+      ],
+      "score_penalty": 55,
+      "score_cap": 20,
+      "display": {
+        "badge": "FDA recall",
+        "tone": "red"
+      }
+    },
+    {
+      "id": "urban-remedy-samosa-cauli-wrap-ecoli-2019",
+      "status": "active",
+      "scope": "product_line",
+      "match": {
+        "barcodes": [],
+        "brand_names": [
+          "Urban Remedy"
+        ],
+        "product_keywords": [
+          "samosa cauli wrap",
+          "cauli wrap",
+          "spinach wrap"
+        ],
+        "category_tags": [
+          "wraps",
+          "ready-to-eat",
+          "spinach"
+        ],
+        "countries": [
+          "US"
+        ]
+      },
+      "type": "recall",
+      "severity": "critical",
+      "confidence": "high",
+      "title": "Shiga toxin E. coli risk in wrap",
+      "short": "FDA enforcement data lists Urban Remedy Samosa Cauli Wrap recalled after spinach sampling found Shiga toxin-producing E. coli.",
+      "details": "Urban Remedy Samosa Cauli Wrap was listed in FDA enforcement data after spinach from a vendor tested positive for Shiga toxin-producing E. coli.",
+      "substances": [
+        "Shiga toxin-producing E. coli"
+      ],
+      "evidence": {
+        "year": 2019,
+        "summary": "FDA enforcement report F-0066-2020 for Urban Remedy Samosa Cauli Wrap and E. coli risk.",
+        "jurisdiction": "United States"
+      },
+      "sources": [
+        {
+          "name": "FDA enforcement report: Shiga toxin E. coli risk in wrap",
+          "url": "https://api.fda.gov/food/enforcement.json?search=recall_number:%22F-0066-2020%22",
+          "type": "regulator",
+          "accessed": "2026-07-06"
+        }
+      ],
+      "score_penalty": 55,
+      "score_cap": 20,
+      "display": {
+        "badge": "FDA recall",
+        "tone": "red"
+      }
+    },
+    {
+      "id": "rabbit-creek-baking-mixes-ecoli-2016",
+      "status": "active",
+      "scope": "product_line",
+      "match": {
+        "barcodes": [],
+        "brand_names": [
+          "Rabbit Creek"
+        ],
+        "product_keywords": [
+          "brownie mix",
+          "muffin mix",
+          "quick bread mix",
+          "beer bread mix",
+          "baking mix"
+        ],
+        "category_tags": [
+          "baking-mixes",
+          "brownies",
+          "muffins"
+        ],
+        "countries": [
+          "US"
+        ]
+      },
+      "type": "recall",
+      "severity": "high",
+      "confidence": "high",
+      "title": "E. coli risk in baking mixes",
+      "short": "FDA enforcement data lists Rabbit Creek baking mixes recalled because flour may have been contaminated with E. coli O121.",
+      "details": "Rabbit Creek brownie, muffin, and bread mixes were listed in FDA enforcement data because they may have used flour contaminated with E. coli O121.",
+      "substances": [
+        "E. coli O121"
+      ],
+      "evidence": {
+        "year": 2016,
+        "summary": "FDA enforcement report F-2536-2016 for Rabbit Creek baking mixes and E. coli O121 risk.",
+        "jurisdiction": "United States"
+      },
+      "sources": [
+        {
+          "name": "FDA enforcement report: E. coli risk in baking mixes",
+          "url": "https://api.fda.gov/food/enforcement.json?search=recall_number:%22F-2536-2016%22",
+          "type": "regulator",
+          "accessed": "2026-07-06"
+        }
+      ],
+      "score_penalty": 35,
+      "score_cap": 35,
+      "display": {
+        "badge": "FDA recall",
+        "tone": "red"
+      }
+    },
+    {
+      "id": "farm-rich-pizza-dippers-ecoli-2013",
+      "status": "active",
+      "scope": "product_line",
+      "match": {
+        "barcodes": [],
+        "brand_names": [
+          "Farm Rich",
+          "Rich Products"
+        ],
+        "product_keywords": [
+          "pizza dippers",
+          "mozzarella bites",
+          "frozen snacks"
+        ],
+        "category_tags": [
+          "frozen-snacks",
+          "pizza",
+          "snacks"
+        ],
+        "countries": [
+          "US"
+        ]
+      },
+      "type": "recall",
+      "severity": "critical",
+      "confidence": "high",
+      "title": "E. coli risk in frozen snacks",
+      "short": "FDA enforcement data lists Farm Rich Pizza Dippers recalled for potential E. coli O121 contamination.",
+      "details": "Farm Rich Pizza Dippers were listed in FDA enforcement data for potential E. coli O121 contamination.",
+      "substances": [
+        "E. coli O121"
+      ],
+      "evidence": {
+        "year": 2013,
+        "summary": "FDA enforcement report F-1369-2013 for Farm Rich Pizza Dippers with E. coli O121 risk.",
+        "jurisdiction": "United States"
+      },
+      "sources": [
+        {
+          "name": "FDA enforcement report: E. coli risk in frozen snacks",
+          "url": "https://api.fda.gov/food/enforcement.json?search=recall_number:%22F-1369-2013%22",
+          "type": "regulator",
+          "accessed": "2026-07-06"
+        }
+      ],
+      "score_penalty": 50,
+      "score_cap": 20,
+      "display": {
+        "badge": "FDA recall",
+        "tone": "red"
+      }
+    },
+    {
+      "id": "glass-onion-delish-noodle-salad-ecoli-2014",
+      "status": "active",
+      "scope": "product_line",
+      "match": {
+        "barcodes": [],
+        "brand_names": [
+          "Glass Onion",
+          "Delish"
+        ],
+        "product_keywords": [
+          "asian style noodle salad",
+          "noodle salad",
+          "salad"
+        ],
+        "category_tags": [
+          "salads",
+          "ready-to-eat",
+          "noodles"
+        ],
+        "countries": [
+          "US"
+        ]
+      },
+      "type": "recall",
+      "severity": "critical",
+      "confidence": "high",
+      "title": "E. coli outbreak-linked salad",
+      "short": "FDA enforcement data lists Glass Onion/Delish salad products tied to an E. coli O157:H7 outbreak investigation.",
+      "details": "Glass Onion/Delish Asian Style Noodle Salad was listed in FDA enforcement data after an E. coli O157:H7 outbreak investigation identified Glass Onion Catering as supplier.",
+      "substances": [
+        "E. coli O157:H7"
+      ],
+      "evidence": {
+        "year": 2014,
+        "summary": "FDA enforcement report F-1419-2014 for Glass Onion/Delish salad and E. coli outbreak investigation.",
+        "jurisdiction": "United States"
+      },
+      "sources": [
+        {
+          "name": "FDA enforcement report: E. coli outbreak-linked salad",
+          "url": "https://api.fda.gov/food/enforcement.json?search=recall_number:%22F-1419-2014%22",
+          "type": "regulator",
+          "accessed": "2026-07-06"
+        }
+      ],
+      "score_penalty": 55,
+      "score_cap": 20,
+      "display": {
+        "badge": "FDA recall",
+        "tone": "red"
+      }
+    },
+    {
+      "id": "spokane-produce-green-lettuce-ecoli-2019",
+      "status": "active",
+      "scope": "product_line",
+      "match": {
+        "barcodes": [],
+        "brand_names": [
+          "Spokane Produce"
+        ],
+        "product_keywords": [
+          "green lettuce",
+          "lettuce fillets",
+          "whole green lettuce"
+        ],
+        "category_tags": [
+          "lettuce",
+          "vegetables",
+          "produce"
+        ],
+        "countries": [
+          "US"
+        ]
+      },
+      "type": "recall",
+      "severity": "critical",
+      "confidence": "high",
+      "title": "Potential E. coli in lettuce",
+      "short": "FDA enforcement data lists Spokane Produce green lettuce recalled for potential E. coli O157:H7 contamination.",
+      "details": "Spokane Produce green lettuce products were listed in FDA enforcement data for potential E. coli O157:H7 contamination.",
+      "substances": [
+        "E. coli O157:H7"
+      ],
+      "evidence": {
+        "year": 2019,
+        "summary": "FDA enforcement report F-0847-2019 for green lettuce with potential E. coli O157:H7.",
+        "jurisdiction": "United States"
+      },
+      "sources": [
+        {
+          "name": "FDA enforcement report: Potential E. coli in lettuce",
+          "url": "https://api.fda.gov/food/enforcement.json?search=recall_number:%22F-0847-2019%22",
+          "type": "regulator",
+          "accessed": "2026-07-06"
+        }
+      ],
+      "score_penalty": 50,
+      "score_cap": 20,
+      "display": {
+        "badge": "FDA recall",
+        "tone": "red"
+      }
+    },
+    {
+      "id": "comfy-cow-ice-cream-ecoli-coliform-2017",
+      "status": "active",
+      "scope": "product_line",
+      "match": {
+        "barcodes": [],
+        "brand_names": [
+          "Comfy Cow",
+          "Koogee"
+        ],
+        "product_keywords": [
+          "cow trax ice cream",
+          "ice cream"
+        ],
+        "category_tags": [
+          "ice-cream",
+          "frozen-desserts",
+          "dairy"
+        ],
+        "countries": [
+          "US"
+        ]
+      },
+      "type": "recall",
+      "severity": "high",
+      "confidence": "high",
+      "title": "E. coli and coliform in ice cream",
+      "short": "FDA enforcement data lists Comfy Cow ice cream recalled due to E. coli and high coliform bacteria counts.",
+      "details": "Comfy Cow ice cream was listed in FDA enforcement data because various ice cream products had E. coli and high coliform bacteria counts.",
+      "substances": [
+        "E. coli",
+        "Coliform bacteria"
+      ],
+      "evidence": {
+        "year": 2017,
+        "summary": "FDA enforcement report F-3446-2017 for Comfy Cow ice cream with E. coli and high coliform counts.",
+        "jurisdiction": "United States"
+      },
+      "sources": [
+        {
+          "name": "FDA enforcement report: E. coli and coliform in ice cream",
+          "url": "https://api.fda.gov/food/enforcement.json?search=recall_number:%22F-3446-2017%22",
+          "type": "regulator",
+          "accessed": "2026-07-06"
+        }
+      ],
+      "score_penalty": 35,
+      "score_cap": 35,
+      "display": {
+        "badge": "FDA recall",
+        "tone": "red"
+      }
+    },
+    {
+      "id": "uncle-rays-lowes-potato-chips-undeclared-milk-2026",
+      "status": "active",
+      "scope": "product_line",
+      "match": {
+        "barcodes": [],
+        "brand_names": [
+          "Uncle Ray's",
+          "Lowes Foods",
+          "Lowe's Foods"
+        ],
+        "product_keywords": [
+          "sour cream and onion potato chips",
+          "potato chips",
+          "chips"
+        ],
+        "category_tags": [
+          "chips",
+          "snacks",
+          "potato-chips"
+        ],
+        "countries": [
+          "US"
+        ]
+      },
+      "type": "recall",
+      "severity": "high",
+      "confidence": "high",
+      "title": "Undeclared milk in potato chips",
+      "short": "FDA enforcement data lists Lowes Foods/Uncle Ray's sour cream and onion potato chips with undeclared milk ingredients.",
+      "details": "Lowes Foods/Uncle Ray's sour cream and onion potato chips were listed in FDA enforcement data for undeclared ingredients including milk.",
+      "substances": [
+        "Milk allergen"
+      ],
+      "evidence": {
+        "year": 2026,
+        "summary": "FDA enforcement report H-0552-2026 for sour cream and onion potato chips with undeclared milk.",
+        "jurisdiction": "United States"
+      },
+      "sources": [
+        {
+          "name": "FDA enforcement report: Undeclared milk in potato chips",
+          "url": "https://api.fda.gov/food/enforcement.json?search=recall_number:%22H-0552-2026%22",
+          "type": "regulator",
+          "accessed": "2026-07-06"
+        }
+      ],
+      "score_penalty": 25,
+      "score_cap": 45,
+      "display": {
+        "badge": "FDA recall",
+        "tone": "red"
+      }
+    },
+    {
+      "id": "new-england-village-snack-mix-almond-sesame-2025",
+      "status": "active",
+      "scope": "product_line",
+      "match": {
+        "barcodes": [],
+        "brand_names": [
+          "New England Village Snacks",
+          "Better Foods"
+        ],
+        "product_keywords": [
+          "19th hole snack mix",
+          "snack mix"
+        ],
+        "category_tags": [
+          "snack-mix",
+          "nuts",
+          "snacks"
+        ],
+        "countries": [
+          "US"
+        ]
+      },
+      "type": "recall",
+      "severity": "high",
+      "confidence": "high",
+      "title": "Undeclared almonds and sesame",
+      "short": "FDA enforcement data lists New England Village Snacks The 19th Hole Snack Mix recalled for undeclared almonds and sesame.",
+      "details": "New England Village Snacks The 19th Hole Snack Mix was listed in FDA enforcement data for undeclared almonds and sesame.",
+      "substances": [
+        "Almond allergen",
+        "Sesame allergen"
+      ],
+      "evidence": {
+        "year": 2025,
+        "summary": "FDA enforcement report F-0801-2025 for snack mix with undeclared almonds and sesame.",
+        "jurisdiction": "United States"
+      },
+      "sources": [
+        {
+          "name": "FDA enforcement report: Undeclared almonds and sesame",
+          "url": "https://api.fda.gov/food/enforcement.json?search=recall_number:%22F-0801-2025%22",
+          "type": "regulator",
+          "accessed": "2026-07-06"
+        }
+      ],
+      "score_penalty": 25,
+      "score_cap": 45,
+      "display": {
+        "badge": "FDA recall",
+        "tone": "red"
+      }
+    },
+    {
+      "id": "grizzlies-trail-mix-undeclared-milk-2018",
+      "status": "active",
+      "scope": "product_line",
+      "match": {
+        "barcodes": [],
+        "brand_names": [
+          "Grizzlies",
+          "Grizzlies Granolas"
+        ],
+        "product_keywords": [
+          "oregon trail mix",
+          "trail mix",
+          "granola"
+        ],
+        "category_tags": [
+          "trail-mix",
+          "granola",
+          "snacks"
+        ],
+        "countries": [
+          "US"
+        ]
+      },
+      "type": "recall",
+      "severity": "high",
+      "confidence": "high",
+      "title": "Undeclared milk in trail mix",
+      "short": "FDA enforcement data lists Grizzlies trail mix recalled for undeclared milk.",
+      "details": "Grizzlies Brand and Grizzlies Granolas Oregon Trail Mix were listed in FDA enforcement data for undeclared milk.",
+      "substances": [
+        "Milk allergen"
+      ],
+      "evidence": {
+        "year": 2018,
+        "summary": "FDA enforcement report F-1759-2018 for trail mix with undeclared milk.",
+        "jurisdiction": "United States"
+      },
+      "sources": [
+        {
+          "name": "FDA enforcement report: Undeclared milk in trail mix",
+          "url": "https://api.fda.gov/food/enforcement.json?search=recall_number:%22F-1759-2018%22",
+          "type": "regulator",
+          "accessed": "2026-07-06"
+        }
+      ],
+      "score_penalty": 25,
+      "score_cap": 45,
+      "display": {
+        "badge": "FDA recall",
+        "tone": "red"
+      }
+    },
+    {
+      "id": "woodys-yogurt-raisins-undeclared-peanuts-2022",
+      "status": "active",
+      "scope": "product_line",
+      "match": {
+        "barcodes": [],
+        "brand_names": [
+          "Woody's Smokehouse",
+          "Woody's"
+        ],
+        "product_keywords": [
+          "yogurt raisins",
+          "yogurt covered raisins",
+          "raisins"
+        ],
+        "category_tags": [
+          "raisins",
+          "snacks",
+          "candy"
+        ],
+        "countries": [
+          "US"
+        ]
+      },
+      "type": "recall",
+      "severity": "high",
+      "confidence": "high",
+      "title": "Undeclared peanuts in yogurt raisins",
+      "short": "FDA enforcement data lists Woody's Smokehouse yogurt raisins recalled because packages contained undeclared peanuts.",
+      "details": "Woody's Smokehouse yogurt covered raisins were listed in FDA enforcement data because bags and tubs contained undeclared peanuts.",
+      "substances": [
+        "Peanut allergen"
+      ],
+      "evidence": {
+        "year": 2022,
+        "summary": "FDA enforcement report F-0910-2022 for yogurt raisins with undeclared peanuts.",
+        "jurisdiction": "United States"
+      },
+      "sources": [
+        {
+          "name": "FDA enforcement report: Undeclared peanuts in yogurt raisins",
+          "url": "https://api.fda.gov/food/enforcement.json?search=recall_number:%22F-0910-2022%22",
+          "type": "regulator",
+          "accessed": "2026-07-06"
+        }
+      ],
+      "score_penalty": 30,
+      "score_cap": 40,
+      "display": {
+        "badge": "FDA recall",
+        "tone": "red"
+      }
+    },
+    {
+      "id": "farrell-farms-dark-chocolate-pecans-milk-2018",
+      "status": "active",
+      "scope": "product_line",
+      "match": {
+        "barcodes": [],
+        "brand_names": [
+          "Farrell Farms"
+        ],
+        "product_keywords": [
+          "dark chocolate pecans",
+          "chocolate pecans",
+          "pecans"
+        ],
+        "category_tags": [
+          "nuts",
+          "chocolate",
+          "snacks"
+        ],
+        "countries": [
+          "US"
+        ]
+      },
+      "type": "recall",
+      "severity": "high",
+      "confidence": "high",
+      "title": "Undeclared milk in chocolate pecans",
+      "short": "FDA enforcement data lists Farrell Farms Dark Chocolate Pecans recalled for undeclared milk.",
+      "details": "Farrell Farms Dark Chocolate Pecans were listed in FDA enforcement data for undeclared milk allergen.",
+      "substances": [
+        "Milk allergen"
+      ],
+      "evidence": {
+        "year": 2018,
+        "summary": "FDA enforcement report F-0526-2018 for dark chocolate pecans with undeclared milk.",
+        "jurisdiction": "United States"
+      },
+      "sources": [
+        {
+          "name": "FDA enforcement report: Undeclared milk in chocolate pecans",
+          "url": "https://api.fda.gov/food/enforcement.json?search=recall_number:%22F-0526-2018%22",
+          "type": "regulator",
+          "accessed": "2026-07-06"
+        }
+      ],
+      "score_penalty": 25,
+      "score_cap": 45,
+      "display": {
+        "badge": "FDA recall",
+        "tone": "red"
+      }
+    },
+    {
+      "id": "germack-dark-chocolate-almond-bark-milk-2018",
+      "status": "active",
+      "scope": "product_line",
+      "match": {
+        "barcodes": [],
+        "brand_names": [
+          "Germack",
+          "Germack Pistachio"
+        ],
+        "product_keywords": [
+          "dark chocolate almond bark",
+          "almond bark",
+          "chocolate bark"
+        ],
+        "category_tags": [
+          "chocolate",
+          "nuts",
+          "snacks"
+        ],
+        "countries": [
+          "US"
+        ]
+      },
+      "type": "recall",
+      "severity": "high",
+      "confidence": "high",
+      "title": "Undeclared milk in almond bark",
+      "short": "FDA enforcement data lists Germack Dark Chocolate Almond Bark recalled following a supplier recall for undeclared milk.",
+      "details": "Germack Dark Chocolate Almond Bark was listed in FDA enforcement data following a supplier recall due to undeclared milk allergen.",
+      "substances": [
+        "Milk allergen"
+      ],
+      "evidence": {
+        "year": 2018,
+        "summary": "FDA enforcement report F-0456-2018 for almond bark with undeclared milk.",
+        "jurisdiction": "United States"
+      },
+      "sources": [
+        {
+          "name": "FDA enforcement report: Undeclared milk in almond bark",
+          "url": "https://api.fda.gov/food/enforcement.json?search=recall_number:%22F-0456-2018%22",
+          "type": "regulator",
+          "accessed": "2026-07-06"
+        }
+      ],
+      "score_penalty": 25,
+      "score_cap": 45,
+      "display": {
+        "badge": "FDA recall",
+        "tone": "red"
+      }
+    },
+    {
+      "id": "joy-gol-gappa-masala-sulfites-2019",
+      "status": "active",
+      "scope": "product_line",
+      "match": {
+        "barcodes": [],
+        "brand_names": [
+          "Joy",
+          "Joy Gourmet Foods"
+        ],
+        "product_keywords": [
+          "gol-gappa masala",
+          "pani puri masala",
+          "masala concentrate"
+        ],
+        "category_tags": [
+          "spices",
+          "sauces",
+          "condiments"
+        ],
+        "countries": [
+          "US"
+        ]
+      },
+      "type": "recall",
+      "severity": "medium",
+      "confidence": "high",
+      "title": "Undeclared sulfites in masala",
+      "short": "FDA enforcement data lists Joy Gol-Gappa/Pani Puri Masala Concentrate recalled for undeclared sulfites.",
+      "details": "Joy Gol-Gappa/Pani Puri Masala Concentrate was listed in FDA enforcement data for undeclared sulfites.",
+      "substances": [
+        "Sulfites"
+      ],
+      "evidence": {
+        "year": 2019,
+        "summary": "FDA enforcement report F-1215-2019 for masala concentrate with undeclared sulfites.",
+        "jurisdiction": "United States"
+      },
+      "sources": [
+        {
+          "name": "FDA enforcement report: Undeclared sulfites in masala",
+          "url": "https://api.fda.gov/food/enforcement.json?search=recall_number:%22F-1215-2019%22",
+          "type": "regulator",
+          "accessed": "2026-07-06"
+        }
+      ],
+      "score_penalty": 15,
+      "score_cap": 65,
+      "display": {
+        "badge": "FDA recall",
+        "tone": "red"
+      }
+    },
+    {
+      "id": "southern-sisters-cheddar-garlic-biscuits-wheat-2020",
+      "status": "active",
+      "scope": "product_line",
+      "match": {
+        "barcodes": [],
+        "brand_names": [
+          "Southern Sisters Gourmet"
+        ],
+        "product_keywords": [
+          "cheddar garlic biscuits",
+          "biscuits"
+        ],
+        "category_tags": [
+          "biscuits",
+          "bakery",
+          "baking-mixes"
+        ],
+        "countries": [
+          "US"
+        ]
+      },
+      "type": "recall",
+      "severity": "high",
+      "confidence": "high",
+      "title": "Undeclared wheat in biscuits",
+      "short": "FDA enforcement data lists Southern Sisters Gourmet Cheddar Garlic Biscuits recalled for undeclared wheat and colors.",
+      "details": "Southern Sisters Gourmet Cheddar Garlic Biscuits were listed in FDA enforcement data for undeclared wheat and undeclared colors.",
+      "substances": [
+        "Wheat allergen",
+        "Yellow #5",
+        "Yellow #6"
+      ],
+      "evidence": {
+        "year": 2020,
+        "summary": "FDA enforcement report F-0913-2020 for biscuits with undeclared wheat and colors.",
+        "jurisdiction": "United States"
+      },
+      "sources": [
+        {
+          "name": "FDA enforcement report: Undeclared wheat in biscuits",
+          "url": "https://api.fda.gov/food/enforcement.json?search=recall_number:%22F-0913-2020%22",
+          "type": "regulator",
+          "accessed": "2026-07-06"
+        }
+      ],
+      "score_penalty": 25,
+      "score_cap": 45,
+      "display": {
+        "badge": "FDA recall",
+        "tone": "red"
+      }
+    },
+    {
+      "id": "grey-ghost-lemon-sugar-cookies-sulfites-2020",
+      "status": "active",
+      "scope": "product_line",
+      "match": {
+        "barcodes": [],
+        "brand_names": [
+          "Grey Ghost Bakery"
+        ],
+        "product_keywords": [
+          "lemon sugar cookies",
+          "cookies"
+        ],
+        "category_tags": [
+          "cookies",
+          "bakery",
+          "snacks"
+        ],
+        "countries": [
+          "US"
+        ]
+      },
+      "type": "recall",
+      "severity": "medium",
+      "confidence": "high",
+      "title": "Undeclared sulfites in cookies",
+      "short": "FDA enforcement data lists Grey Ghost Bakery Lemon Sugar cookies recalled for undeclared sulfites.",
+      "details": "Grey Ghost Bakery Lemon Sugar cookies were listed in FDA enforcement data for undeclared sulfites.",
+      "substances": [
+        "Sulfites"
+      ],
+      "evidence": {
+        "year": 2020,
+        "summary": "FDA enforcement report F-0559-2020 for Lemon Sugar cookies with undeclared sulfites.",
+        "jurisdiction": "United States"
+      },
+      "sources": [
+        {
+          "name": "FDA enforcement report: Undeclared sulfites in cookies",
+          "url": "https://api.fda.gov/food/enforcement.json?search=recall_number:%22F-0559-2020%22",
+          "type": "regulator",
+          "accessed": "2026-07-06"
+        }
+      ],
+      "score_penalty": 15,
+      "score_cap": 65,
+      "display": {
+        "badge": "FDA recall",
+        "tone": "red"
+      }
+    },
+    {
+      "id": "queen-bee-caramels-tree-nuts-2022",
+      "status": "active",
+      "scope": "product_line",
+      "match": {
+        "barcodes": [],
+        "brand_names": [
+          "Queen Bee Gardens"
+        ],
+        "product_keywords": [
+          "honey caramels",
+          "blue raspberry",
+          "caramels"
+        ],
+        "category_tags": [
+          "candy",
+          "caramels",
+          "snacks"
+        ],
+        "countries": [
+          "US"
+        ]
+      },
+      "type": "recall",
+      "severity": "high",
+      "confidence": "high",
+      "title": "Undeclared tree nuts in caramels",
+      "short": "FDA enforcement data lists Queen Bee Gardens caramels recalled for possible undeclared tree nuts.",
+      "details": "Queen Bee Gardens honey caramels were listed in FDA enforcement data because products may contain undeclared tree nuts including pecans, almonds, coconut, macadamia nuts, and walnuts.",
+      "substances": [
+        "Tree nut allergen"
+      ],
+      "evidence": {
+        "year": 2022,
+        "summary": "FDA enforcement report F-1472-2022 for caramels with possible undeclared tree nuts.",
+        "jurisdiction": "United States"
+      },
+      "sources": [
+        {
+          "name": "FDA enforcement report: Undeclared tree nuts in caramels",
+          "url": "https://api.fda.gov/food/enforcement.json?search=recall_number:%22F-1472-2022%22",
+          "type": "regulator",
+          "accessed": "2026-07-06"
+        }
+      ],
+      "score_penalty": 25,
+      "score_cap": 45,
+      "display": {
+        "badge": "FDA recall",
+        "tone": "red"
+      }
+    },
+    {
+      "id": "magic-gourmet-koi-palace-moon-cake-allergens-2017",
+      "status": "active",
+      "scope": "product_line",
+      "match": {
+        "barcodes": [],
+        "brand_names": [
+          "Magic Gourmet",
+          "Koi Palace"
+        ],
+        "product_keywords": [
+          "mini moon cake",
+          "mooncake",
+          "oolong tea paste"
+        ],
+        "category_tags": [
+          "mooncakes",
+          "bakery",
+          "desserts"
+        ],
+        "countries": [
+          "US"
+        ]
+      },
+      "type": "recall",
+      "severity": "medium",
+      "confidence": "high",
+      "title": "Missing allergen labeling on mooncakes",
+      "short": "FDA enforcement data lists Koi Palace/Magic Gourmet mooncake products recalled for inadequate labeling including ingredients and allergens.",
+      "details": "Koi Palace/Magic Gourmet mooncake products were listed in FDA enforcement data for inadequate labeling, including ingredients and allergens.",
+      "substances": [
+        "Undeclared allergens"
+      ],
+      "evidence": {
+        "year": 2017,
+        "summary": "FDA enforcement report F-0865-2017 for mooncake products with inadequate allergen labeling.",
+        "jurisdiction": "United States"
+      },
+      "sources": [
+        {
+          "name": "FDA enforcement report: Missing allergen labeling on mooncakes",
+          "url": "https://api.fda.gov/food/enforcement.json?search=recall_number:%22F-0865-2017%22",
+          "type": "regulator",
+          "accessed": "2026-07-06"
+        }
+      ],
+      "score_penalty": 15,
+      "score_cap": 65,
+      "display": {
+        "badge": "FDA recall",
+        "tone": "red"
+      }
+    },
+    {
+      "id": "american-outdoor-astronaut-strawberries-lead-2024",
+      "status": "active",
+      "scope": "product_line",
+      "match": {
+        "barcodes": [],
+        "brand_names": [
+          "American Outdoor Products",
+          "American Outdoor"
+        ],
+        "product_keywords": [
+          "astronaut strawberries",
+          "freeze dried strawberries",
+          "strawberries"
+        ],
+        "category_tags": [
+          "freeze-dried-fruit",
+          "strawberries",
+          "snacks"
+        ],
+        "countries": [
+          "US"
+        ]
+      },
+      "type": "recall",
+      "severity": "high",
+      "confidence": "high",
+      "title": "Elevated lead in freeze-dried strawberries",
+      "short": "FDA enforcement data lists American Outdoor Products Astronaut Strawberries recalled for elevated lead levels.",
+      "details": "American Outdoor Products Astronaut Strawberries were listed in FDA enforcement data for elevated lead levels.",
+      "substances": [
+        "Lead"
+      ],
+      "evidence": {
+        "year": 2024,
+        "summary": "FDA enforcement report F-1807-2024 for Astronaut Strawberries with elevated lead.",
+        "jurisdiction": "United States"
+      },
+      "sources": [
+        {
+          "name": "FDA enforcement report: Elevated lead in freeze-dried strawberries",
+          "url": "https://api.fda.gov/food/enforcement.json?search=recall_number:%22F-1807-2024%22",
+          "type": "regulator",
+          "accessed": "2026-07-06"
+        }
+      ],
+      "score_penalty": 35,
+      "score_cap": 35,
+      "display": {
+        "badge": "FDA recall",
+        "tone": "red"
+      }
+    },
+    {
+      "id": "natierra-freeze-dried-blueberries-lead-2022",
+      "status": "active",
+      "scope": "product_line",
+      "match": {
+        "barcodes": [],
+        "brand_names": [
+          "Natierra",
+          "BrandStorm"
+        ],
+        "product_keywords": [
+          "organic blueberries",
+          "freeze dried blueberries",
+          "blueberries"
+        ],
+        "category_tags": [
+          "freeze-dried-fruit",
+          "blueberries",
+          "snacks"
+        ],
+        "countries": [
+          "US"
+        ]
+      },
+      "type": "recall",
+      "severity": "high",
+      "confidence": "high",
+      "title": "Elevated lead in freeze-dried blueberries",
+      "short": "FDA enforcement data lists Natierra organic freeze-dried blueberries recalled after testing found elevated lead.",
+      "details": "Natierra organic freeze-dried blueberries were listed in FDA enforcement data after Maryland Department of Health testing found elevated lead.",
+      "substances": [
+        "Lead"
+      ],
+      "evidence": {
+        "year": 2022,
+        "summary": "FDA enforcement report F-1539-2022 for Natierra freeze-dried blueberries with elevated lead.",
+        "jurisdiction": "United States"
+      },
+      "sources": [
+        {
+          "name": "FDA enforcement report: Elevated lead in freeze-dried blueberries",
+          "url": "https://api.fda.gov/food/enforcement.json?search=recall_number:%22F-1539-2022%22",
+          "type": "regulator",
+          "accessed": "2026-07-06"
+        }
+      ],
+      "score_penalty": 35,
+      "score_cap": 35,
+      "display": {
+        "badge": "FDA recall",
+        "tone": "red"
+      }
+    },
+    {
+      "id": "sprout-organics-baby-food-lead-2025",
+      "status": "active",
+      "scope": "product_line",
+      "match": {
+        "barcodes": [],
+        "brand_names": [
+          "Sprout Organics",
+          "Sprout"
+        ],
+        "product_keywords": [
+          "sweet potato apple spinach",
+          "baby food pouch",
+          "organic pouch",
+          "baby food"
+        ],
+        "category_tags": [
+          "baby-foods",
+          "fruit-purees",
+          "vegetable-purees"
+        ],
+        "countries": [
+          "US"
+        ]
+      },
+      "type": "recall",
+      "severity": "critical",
+      "confidence": "high",
+      "title": "Lead risk in baby food pouch",
+      "short": "FDA enforcement data lists Sprout Organics baby food pouches recalled for potential heavy metal lead contamination.",
+      "details": "Sprout Organics Sweet Potato, Apple & Spinach baby food pouches were listed in FDA enforcement data for potential heavy metal lead contamination.",
+      "substances": [
+        "Lead"
+      ],
+      "evidence": {
+        "year": 2025,
+        "summary": "FDA enforcement report H-0134-2026 for Sprout Organics baby food pouches with potential lead contamination.",
+        "jurisdiction": "United States"
+      },
+      "sources": [
+        {
+          "name": "FDA enforcement report: Lead risk in baby food pouch",
+          "url": "https://api.fda.gov/food/enforcement.json?search=recall_number:%22H-0134-2026%22",
+          "type": "regulator",
+          "accessed": "2026-07-06"
+        }
+      ],
+      "score_penalty": 55,
+      "score_cap": 20,
+      "display": {
+        "badge": "FDA recall",
+        "tone": "red"
+      }
+    },
+    {
+      "id": "el-super-leon-dry-salted-plum-lead-2022",
+      "status": "active",
+      "scope": "product_line",
+      "match": {
+        "barcodes": [],
+        "brand_names": [
+          "El Super Leon"
+        ],
+        "product_keywords": [
+          "dry salted plum",
+          "salted plum",
+          "plum with chili",
+          "saladitos"
+        ],
+        "category_tags": [
+          "candy",
+          "dried-fruit",
+          "snacks"
+        ],
+        "countries": [
+          "US"
+        ]
+      },
+      "type": "recall",
+      "severity": "high",
+      "confidence": "high",
+      "title": "Lead risk in salted plum candy",
+      "short": "FDA enforcement data lists El Super Leon dry salted plum with chili recalled for potential lead contamination.",
+      "details": "El Super Leon dry salted plum with chili was listed in FDA enforcement data for potential lead contamination.",
+      "substances": [
+        "Lead"
+      ],
+      "evidence": {
+        "year": 2022,
+        "summary": "FDA enforcement report F-0856-2022 for dry salted plum with chili with potential lead.",
+        "jurisdiction": "United States"
+      },
+      "sources": [
+        {
+          "name": "FDA enforcement report: Lead risk in salted plum candy",
+          "url": "https://api.fda.gov/food/enforcement.json?search=recall_number:%22F-0856-2022%22",
+          "type": "regulator",
+          "accessed": "2026-07-06"
+        }
+      ],
+      "score_penalty": 35,
+      "score_cap": 35,
+      "display": {
+        "badge": "FDA recall",
+        "tone": "red"
+      }
+    },
+    {
+      "id": "tolteca-saladitos-lead-2022",
+      "status": "active",
+      "scope": "product_line",
+      "match": {
+        "barcodes": [],
+        "brand_names": [
+          "Tolteca",
+          "Candies Tolteca"
+        ],
+        "product_keywords": [
+          "saladitos",
+          "dried plums",
+          "plums with chili",
+          "chili lemon"
+        ],
+        "category_tags": [
+          "candy",
+          "dried-fruit",
+          "snacks"
+        ],
+        "countries": [
+          "US"
+        ]
+      },
+      "type": "recall",
+      "severity": "high",
+      "confidence": "high",
+      "title": "High lead in dried plums",
+      "short": "FDA enforcement data lists Tolteca Saladitos dried plums recalled because they may contain high lead levels.",
+      "details": "Tolteca Saladitos dried salted plums were listed in FDA enforcement data because they may contain high lead levels.",
+      "substances": [
+        "Lead"
+      ],
+      "evidence": {
+        "year": 2022,
+        "summary": "FDA enforcement report F-0858-2022 for Tolteca Saladitos with high lead levels.",
+        "jurisdiction": "United States"
+      },
+      "sources": [
+        {
+          "name": "FDA enforcement report: High lead in dried plums",
+          "url": "https://api.fda.gov/food/enforcement.json?search=recall_number:%22F-0858-2022%22",
+          "type": "regulator",
+          "accessed": "2026-07-06"
+        }
+      ],
+      "score_penalty": 35,
+      "score_cap": 35,
+      "display": {
+        "badge": "FDA recall",
+        "tone": "red"
+      }
+    },
+    {
+      "id": "asian-best-tamarind-candy-lead-2018",
+      "status": "active",
+      "scope": "product_line",
+      "match": {
+        "barcodes": [],
+        "brand_names": [
+          "Asian Best",
+          "Eastland Food"
+        ],
+        "product_keywords": [
+          "tamarind candy",
+          "hot flavor",
+          "candy"
+        ],
+        "category_tags": [
+          "candy",
+          "snacks"
+        ],
+        "countries": [
+          "US"
+        ]
+      },
+      "type": "recall",
+      "severity": "high",
+      "confidence": "high",
+      "title": "Lead risk in tamarind candy",
+      "short": "FDA enforcement data lists Asian Best tamarind candy recalled after lead-related testing concern.",
+      "details": "Asian Best tamarind candy was listed in FDA enforcement data in a lead-related recall.",
+      "substances": [
+        "Lead"
+      ],
+      "evidence": {
+        "year": 2018,
+        "summary": "FDA enforcement report F-1408-2018 for Asian Best tamarind candy with lead concern.",
+        "jurisdiction": "United States"
+      },
+      "sources": [
+        {
+          "name": "FDA enforcement report: Lead risk in tamarind candy",
+          "url": "https://api.fda.gov/food/enforcement.json?search=recall_number:%22F-1408-2018%22",
+          "type": "regulator",
+          "accessed": "2026-07-06"
+        }
+      ],
+      "score_penalty": 35,
+      "score_cap": 35,
+      "display": {
+        "badge": "FDA recall",
+        "tone": "red"
+      }
+    },
+    {
+      "id": "fruit-juice-candy-lead-2015",
+      "status": "active",
+      "scope": "product_line",
+      "match": {
+        "barcodes": [],
+        "brand_names": [
+          "Fruit Juice Candy",
+          "Jin Shun FA"
+        ],
+        "product_keywords": [
+          "fruit juice candy",
+          "bonbons",
+          "candy"
+        ],
+        "category_tags": [
+          "candy",
+          "snacks"
+        ],
+        "countries": [
+          "US"
+        ]
+      },
+      "type": "recall",
+      "severity": "high",
+      "confidence": "high",
+      "title": "Lead detected in fruit juice candy",
+      "short": "FDA enforcement data lists Fruit Juice Candy recalled after a sample tested positive for lead.",
+      "details": "Fruit Juice Candy was listed in FDA enforcement data after a Florida Department of Agriculture sample tested positive for lead.",
+      "substances": [
+        "Lead"
+      ],
+      "evidence": {
+        "year": 2015,
+        "summary": "FDA enforcement report F-2768-2015 for fruit juice candy with lead detected.",
+        "jurisdiction": "United States"
+      },
+      "sources": [
+        {
+          "name": "FDA enforcement report: Lead detected in fruit juice candy",
+          "url": "https://api.fda.gov/food/enforcement.json?search=recall_number:%22F-2768-2015%22",
+          "type": "regulator",
+          "accessed": "2026-07-06"
+        }
+      ],
+      "score_penalty": 35,
+      "score_cap": 35,
+      "display": {
+        "badge": "FDA recall",
+        "tone": "red"
+      }
+    },
+    {
+      "id": "baidyanath-saptamrit-lauh-heavy-metals-2017",
+      "status": "active",
+      "scope": "product_line",
+      "match": {
+        "barcodes": [],
+        "brand_names": [
+          "Baidyanath"
+        ],
+        "product_keywords": [
+          "saptamrit lauh",
+          "dietary supplement",
+          "tablets"
+        ],
+        "category_tags": [
+          "supplements",
+          "dietary-supplements"
+        ],
+        "countries": [
+          "US"
+        ]
+      },
+      "type": "recall",
+      "severity": "critical",
+      "confidence": "high",
+      "title": "Heavy metals in supplement",
+      "short": "FDA enforcement data lists Baidyanath Saptamrit Lauh recalled for lead, mercury, and/or arsenic above permitted levels.",
+      "details": "Baidyanath Saptamrit Lauh dietary supplement was listed in FDA enforcement data for lead, mercury, and/or arsenic above permitted levels.",
+      "substances": [
+        "Lead",
+        "Mercury",
+        "Arsenic"
+      ],
+      "evidence": {
+        "year": 2017,
+        "summary": "FDA enforcement report F-1811-2017 for Baidyanath Saptamrit Lauh with heavy metals.",
+        "jurisdiction": "United States"
+      },
+      "sources": [
+        {
+          "name": "FDA enforcement report: Heavy metals in supplement",
+          "url": "https://api.fda.gov/food/enforcement.json?search=recall_number:%22F-1811-2017%22",
+          "type": "regulator",
+          "accessed": "2026-07-06"
+        }
+      ],
+      "score_penalty": 55,
+      "score_cap": 20,
+      "display": {
+        "badge": "FDA recall",
+        "tone": "red"
+      }
+    },
+    {
+      "id": "life-rising-side-head-regulator-lead-2017",
+      "status": "active",
+      "scope": "product_line",
+      "match": {
+        "barcodes": [],
+        "brand_names": [
+          "Life Rising"
+        ],
+        "product_keywords": [
+          "tt side head regulator",
+          "side head regulator",
+          "chinese herbal supplement",
+          "supplement"
+        ],
+        "category_tags": [
+          "supplements",
+          "dietary-supplements"
+        ],
+        "countries": [
+          "US"
+        ]
+      },
+      "type": "recall",
+      "severity": "critical",
+      "confidence": "high",
+      "title": "High lead in supplement",
+      "short": "FDA enforcement data lists Life Rising TT Side Head Regulator recalled after high lead levels were found.",
+      "details": "Life Rising TT Side Head Regulator dietary supplement was listed in FDA enforcement data after high lead levels were discovered.",
+      "substances": [
+        "Lead"
+      ],
+      "evidence": {
+        "year": 2017,
+        "summary": "FDA enforcement report F-1623-2017 for Life Rising supplement with high lead.",
+        "jurisdiction": "United States"
+      },
+      "sources": [
+        {
+          "name": "FDA enforcement report: High lead in supplement",
+          "url": "https://api.fda.gov/food/enforcement.json?search=recall_number:%22F-1623-2017%22",
+          "type": "regulator",
+          "accessed": "2026-07-06"
+        }
+      ],
+      "score_penalty": 55,
+      "score_cap": 20,
+      "display": {
+        "badge": "FDA recall",
+        "tone": "red"
+      }
+    }
+  ]
+}
