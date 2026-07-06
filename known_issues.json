@@ -1,11 +1,12 @@
 {
-  "version": 3,
-  "updated": "2026-07-04",
+  "version": 4,
+  "updated": "2026-07-06",
   "schema_version": 1,
   "issues": [
     {
       "id": "wanabana-schnucks-weis-cinnamon-applesauce-lead-chromium-2023",
       "status": "active",
+      "scope": "brand_line",
       "match": {
         "barcodes": [],
         "brand_names": [
@@ -54,6 +55,7 @@
         }
       ],
       "score_penalty": 60,
+      "score_cap": 15,
       "display": {
         "badge": "FDA recall",
         "tone": "red"
