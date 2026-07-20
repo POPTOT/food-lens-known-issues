@@ -1,5 +1,5 @@
 {
-  "version": 9,
+  "version": 10,
   "updated": "2026-07-20",
   "schema_version": 1,
   "issues": [
@@ -26571,7 +26571,7 @@
     },
     {
       "id": "zen-principle-moringa-capsules-salmonella-lot-a6ff4-2026",
-      "status": "draft",
+      "status": "active",
       "scope": "exact_product",
       "match": {
         "barcodes": [],
@@ -26627,7 +26627,7 @@
     },
     {
       "id": "taylor-farms-marketside-iceberg-lettuce-cyclospora-outbreak-2026",
-      "status": "draft",
+      "status": "active",
       "scope": "product_line",
       "match": {
         "barcodes": [],
@@ -26693,7 +26693,7 @@
     },
     {
       "id": "ola-ola-pounded-yam-undeclared-milk-2026",
-      "status": "draft",
+      "status": "active",
       "scope": "product_line",
       "match": {
         "barcodes": [],
@@ -26752,7 +26752,7 @@
     },
     {
       "id": "khong-guan-glutinous-rice-balls-undeclared-peanut-2026",
-      "status": "draft",
+      "status": "active",
       "scope": "exact_product",
       "match": {
         "barcodes": [
