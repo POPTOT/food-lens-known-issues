@@ -1,6 +1,6 @@
 {
-  "version": 8,
-  "updated": "2026-07-06",
+  "version": 9,
+  "updated": "2026-07-20",
   "schema_version": 1,
   "issues": [
     {
@@ -26568,7 +26568,243 @@
         "badge": "FDA pathogen recall",
         "tone": "red"
       }
+    },
+    {
+      "id": "zen-principle-moringa-capsules-salmonella-lot-a6ff4-2026",
+      "status": "draft",
+      "scope": "exact_product",
+      "match": {
+        "barcodes": [],
+        "brand_names": [
+          "Zen Principle",
+          "Zen Principle Naturals"
+        ],
+        "product_keywords": [
+          "moringa capsules",
+          "moringa leaf powder capsules",
+          "180 capsules",
+          "Lot A6FF4",
+          "X000ZJJ4FT",
+          "X00159YJXP"
+        ],
+        "category_tags": [
+          "dietary-supplements",
+          "moringa",
+          "capsules"
+        ],
+        "countries": [
+          "US"
+        ]
+      },
+      "type": "recall",
+      "severity": "high",
+      "confidence": "high",
+      "title": "Salmonella recall for one moringa capsule lot",
+      "short": "FDA posted a recall of Zen Principle Moringa Capsules, Lot A6FF4, after FDA testing found Salmonella in the supplied moringa powder.",
+      "details": "The recall covers Zen Principle Moringa Capsules in 180-count bottles, Lot A6FF4, Best By 11/2028, including listed Amazon single- and twin-pack codes. The company reported no illnesses at the time of the notice.",
+      "substances": [
+        "Salmonella"
+      ],
+      "evidence": {
+        "year": 2026,
+        "summary": "FDA-posted recall after FDA testing of the moringa leaf powder used in Lot A6FF4 returned positive for Salmonella.",
+        "jurisdiction": "United States"
+      },
+      "sources": [
+        {
+          "name": "FDA: Zen Principle Moringa Capsules recall",
+          "url": "https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts/relay-peak-research-llc-recalls-zen-principler-moringa-capsules-because-possible-health-risk",
+          "type": "regulator",
+          "accessed": "2026-07-20"
+        }
+      ],
+      "score_penalty": 40,
+      "score_cap": 30,
+      "display": {
+        "badge": "FDA recall draft",
+        "tone": "red"
+      }
+    },
+    {
+      "id": "taylor-farms-marketside-iceberg-lettuce-cyclospora-outbreak-2026",
+      "status": "draft",
+      "scope": "product_line",
+      "match": {
+        "barcodes": [],
+        "brand_names": [
+          "Marketside",
+          "Taylor Farms",
+          "Taylor Fresh Foods",
+          "Taylor Farms de Mexico"
+        ],
+        "product_keywords": [
+          "iceberg salad",
+          "shredded lettuce",
+          "iceberg lettuce",
+          "12 oz iceberg salad",
+          "24 oz iceberg salad",
+          "8 oz shredded lettuce",
+          "16 oz shredded lettuce"
+        ],
+        "category_tags": [
+          "produce",
+          "lettuce",
+          "iceberg-lettuce",
+          "salad"
+        ],
+        "countries": [
+          "US"
+        ]
+      },
+      "type": "regulatory_notice",
+      "severity": "high",
+      "confidence": "high",
+      "title": "Cyclospora outbreak linked to recalled iceberg lettuce",
+      "short": "FDA traceback linked an ongoing five-state Cyclospora outbreak to recalled iceberg lettuce supplied by Taylor Farms de Mexico.",
+      "details": "The consumer-facing recall includes Marketside Iceberg Salad (12 oz and 24 oz) and Shredded Lettuce (8 oz and 16 oz) with listed July–August 2026 best-by dates. FDA says traceback converged on Taylor Farms de Mexico; as of July 19, product samples had no confirmed positive result and the investigation remained ongoing.",
+      "substances": [
+        "Cyclospora cayetanensis"
+      ],
+      "evidence": {
+        "year": 2026,
+        "summary": "FDA traceback converged on Taylor Farms de Mexico as supplier of shredded iceberg lettuce served where outbreak cases reported eating; affected products were recalled.",
+        "jurisdiction": "United States"
+      },
+      "sources": [
+        {
+          "name": "FDA outbreak investigation: Cyclospora illnesses and iceberg lettuce",
+          "url": "https://www.fda.gov/food/outbreaks-foodborne-illness/investigation-5-state-outbreak-cyclospora-illnesses-iceberg-lettuce-july-2026",
+          "type": "regulator",
+          "accessed": "2026-07-20"
+        },
+        {
+          "name": "FDA: Taylor Fresh Foods iceberg lettuce recall",
+          "url": "https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts/taylor-fresh-foods-recalls-iceberg-lettuce-central-mexico-because-possible-health-risk",
+          "type": "regulator",
+          "accessed": "2026-07-20"
+        }
+      ],
+      "score_penalty": 45,
+      "score_cap": 25,
+      "display": {
+        "badge": "FDA outbreak draft",
+        "tone": "red"
+      }
+    },
+    {
+      "id": "ola-ola-pounded-yam-undeclared-milk-2026",
+      "status": "draft",
+      "scope": "product_line",
+      "match": {
+        "barcodes": [],
+        "brand_names": [
+          "Ola-Ola",
+          "Fayus",
+          "Yusol International Foods"
+        ],
+        "product_keywords": [
+          "pounded yam",
+          "2 lb pounded yam",
+          "4 lb pounded yam",
+          "5 lb pounded yam",
+          "10 lb pounded yam"
+        ],
+        "category_tags": [
+          "yam",
+          "flour",
+          "african-foods"
+        ],
+        "countries": [
+          "US",
+          "CA",
+          "AU"
+        ]
+      },
+      "type": "recall",
+      "severity": "high",
+      "confidence": "high",
+      "title": "Undeclared milk in Ola-Ola Pounded Yam",
+      "short": "FDA posted an expanded recall of Ola-Ola Pounded Yam packages that omit milk-derived sodium caseinate from the allergen label.",
+      "details": "The recall covers 2 lb, 4 lb, 5 lb, and 10 lb packages with expiration dates from November 2028 through May 2029 when the package does not declare milk. CFIA sampling confirmed the labeling omission in sampled sizes.",
+      "substances": [
+        "Milk",
+        "Sodium caseinate"
+      ],
+      "evidence": {
+        "year": 2026,
+        "summary": "FDA-posted expanded recall for packaging that omitted milk-derived sodium caseinate; CFIA sampling confirmed the allergen-label omission.",
+        "jurisdiction": "United States, Canada, and Australia"
+      },
+      "sources": [
+        {
+          "name": "FDA: Ola-Ola Pounded Yam expanded allergen recall",
+          "url": "https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts/fayus-inc-dba-yusol-international-foods-expands-recall-ola-ola-pounded-yam-due-undeclared-milk",
+          "type": "regulator",
+          "accessed": "2026-07-20"
+        }
+      ],
+      "score_penalty": 45,
+      "score_cap": 20,
+      "display": {
+        "badge": "FDA allergen recall draft",
+        "tone": "red"
+      }
+    },
+    {
+      "id": "khong-guan-glutinous-rice-balls-undeclared-peanut-2026",
+      "status": "draft",
+      "scope": "exact_product",
+      "match": {
+        "barcodes": [
+          "6908791000053"
+        ],
+        "brand_names": [
+          "Khong Guan",
+          "Khong Guan Corporation"
+        ],
+        "product_keywords": [
+          "glutinous rice balls with black sesame filling",
+          "black sesame rice balls",
+          "14.1 oz",
+          "date code 10/19/2027"
+        ],
+        "category_tags": [
+          "frozen-desserts",
+          "rice-balls",
+          "sesame"
+        ],
+        "countries": [
+          "US"
+        ]
+      },
+      "type": "recall",
+      "severity": "high",
+      "confidence": "high",
+      "title": "Undeclared peanut in black sesame rice balls",
+      "short": "FDA posted a recall of a specified Khong Guan glutinous rice ball product because its packaging may not declare peanuts.",
+      "details": "The recall covers 14.1 oz bags of Glutinous Rice Balls with Black Sesame Filling, UPC 6-908791-000053, date code 10/19/2027. No illnesses were reported at the time of the notice.",
+      "substances": [
+        "Peanut"
+      ],
+      "evidence": {
+        "year": 2026,
+        "summary": "FDA-posted recall of specified product code after suspected peanut content was reported in packaging that did not disclose peanuts.",
+        "jurisdiction": "United States"
+      },
+      "sources": [
+        {
+          "name": "FDA: Khong Guan glutinous rice balls allergen recall",
+          "url": "https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts/khong-guan-corporation-issues-recall-glutinous-rice-balls-black-sesame-filling-due-undeclared",
+          "type": "regulator",
+          "accessed": "2026-07-20"
+        }
+      ],
+      "score_penalty": 50,
+      "score_cap": 15,
+      "display": {
+        "badge": "FDA allergen recall draft",
+        "tone": "red"
+      }
     }
   ]
 }
-
